@@ -8,7 +8,7 @@
 SocGholish C2 occasionally delivers a stage 2 JS payload that initiates downloading of the next stage from hxxp://wudugf[.]top/f23.svg
 This is a Domain Generation Algorithm (DGA) to download a Powershell beacon. The goal is to deofuscate the GDA and find domains used to download the beacon.
 
-1) Is we open the file f23.svg we see the definition of function "60qhutyid974vsx3pekc82zwfro", that is used with the base64 input 
+1) If we open the file f23.svg we see the definition of function "60qhutyid974vsx3pekc82zwfro", that is used with the base64 input 
 "Z/tiaHpzd3Z1aZ45Mx/JWGrNILwO8XDJmtUOBRgt/ATavWgWoDM/LUNLszsZdfu3puKEAoUIHsLHIP7cCIleZLkPeEXI868C3em+uSvFYiF7516q3aobSVoRBd2R09IwvDSnfLJMfdCw2+lcwVJSYYVQ9Vu7RBFrmbxIO9n6IFTAciE2PI1U+oIbx/yaqjunkeZfjOJZ7WnDVB+NxteY2ASS4vCxefqKDvXb596Nfc5BVf+upNw2DMRbb/n5OxMtucIEnFCb2E3fymjLQeq32s30kFG/DStOgH5z6kq1RjOuixfiKYm2ogSA1GL20+iBN71BhiOSZVg6+OMt6j+/WD6DAIyKvo8WQZlAJ+FO831W6u7RSG587bUTV/QEYGhsSYV3qTQzYPKt+sGBbyo0cEzIkFFsiShNbN2gF6neH6E9lWvmzqpF6vvkKB8U/8gwjj0N0GUZ3C1Lr0BJifMJ+4yvEKD7Hdd56bIVZYEOWQmnWhTna/DmcE/rTIl5zgiFDBTqK1x0/q/3DyWZkc0iNBL1pcc4ragEP1XsLBjFO76W99JiuQHbWfcQOD2b2ivfTcUehtPm5XkbqJ04whFt5ioKiUF/eklgqRO3BKCd0AhidUWYHrPxoe/IqHfY8CnR+HVqaA=="  and later executed with the Invoke-Expression, iex
 
 2)A quick look at the script shows this is only concatenating strings and decompressing them to generate a code that will be executed in the last line.
