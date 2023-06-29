@@ -1,1 +1,8 @@
 .DS_Store
+
+#vir
+.vir 
+.exe 
+.dll 
+
+temp/
