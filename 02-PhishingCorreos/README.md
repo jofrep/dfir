@@ -164,7 +164,7 @@ KoFoqunheCjkoIQcfJjzM = "0M8R4K7oIHgxGDAZlkmbaDv_REDUCED_FILE_AAAAAAAAAAAAAAAA==
 </html>
 ```
 
-6) We some some functions generating random strings. If we clean up the code and rename some variables, we get the following:
+6) We see some functions generating random strings. If we clean up the code and rename some variables and functions, we get the following cleaner code:
 
 ```html
 <html>
