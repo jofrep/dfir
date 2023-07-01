@@ -1,7 +1,7 @@
-## Phisging email delivering malware
-### Date: 29/06/23
+## Phishing email delivering malware
+### Date: 01/07/23
 ### Source: email
-### Goal: Verify phising email
+### Goal: Verify phishing email
 ### Languages: SMTP, JavaScript
 ---
 
@@ -18,7 +18,7 @@ The victim is Spanish and the colours and fonts resemble the Spanish Post Office
 Authentication-Results: mailin036.protonmail.ch; dmarc=fail (p=none dis=none) header.from=gmail.com
 ```
 
-We can see that DMARC is failing for the gmail.com address.
+We can see that DMARC is failing due to the gmail.com address.
 
 3) To find the real source of the email we need to check again the SMTP headers (`smtp-headers.txt`). We will focus on the  `Received:` headers, starting for the last one. As the SMTP headers are added by every new hop, the last one is the first that was included.
 
@@ -224,7 +224,7 @@ zipped_content.generateAsync({ type: "Blob" ,compression: "DEFLATE"}).then(funct
 We can see as the threat actor has three different functions just to generate the file names, always including one non ASCII character.
 The payload is the BASE64 encoded content from the large variable we trimed. What the HTML does is to use Javascript to decoded de base64 content, add a random name with extension .msi,  compress the content using DEFLAT compression, add another random name with the zip extnesion and deliver it to the victim.
 
-7) If we execute the Javascript, it generartes a file like the one at DTFHO4OMsmY4Wckrtb.zip.vir.zip. If we unzip it we find an MSI executable.
+7) If we execute the Javascript, it generates a file like the one at DTFHO4OMsmY4Wckrtb.zip.vir.zip. If we unzip it we find an MSI executable.
 
 8) At the time of writting this, VirusTotal only finds detections in 2 engines:
 
@@ -435,7 +435,7 @@ AI_SET_MAINT	51	AI_MAINT	1
 AI_SET_PATCH	51	AI_PATCH	1
 ```
 
-15) We see severla references to `new ActiveXObject` . This means that this payload will not work in a modern browser. When Microsoft launched Edge in 2015 it stopped enabling it in the browser. Nevertheless ActiveX is still supported by the OS. As the paylod is executed by an MSI it will succeed.
+15) We see severla references to `new ActiveXObject` . This means that this payload will not work in a modern browser. When Microsoft launched Edge in 2015 it stopped enabling it in the browser by default. Nevertheless ActiveX is still supported by the OS. As the payload is executed by an MSI, it will succeed.
 
 
 16) A crude way to analyze the Javascript is to create an empty ActiveX class and execute it step by step in a browser. I appended this to the script and executed it in a browser. 
@@ -566,13 +566,13 @@ End
 
 18) Unfortunatelly the exe  hosted in https://landvoque.s3.eu-west-1.amazonaws[.]com/vailand.txt is not available anymore.
 
-19) If we execute the MSI in a controlled environment we can see it is accessing `landvoque.s3.eu-west-1.amazonaws[.]com` confirming the finding
+19) If we execute the MSI in a controlled environment we can see it is accessing `landvoque.s3.eu-west-1.amazonaws[.]com` confirming the finding.
 
 ```
- domain landvoque.s3.eu-west-1.amazonaws[.]com
-Conection to 52.218.52[.]163
+Name: landvoque.s3.eu-west-1.amazonaws[.]com
+Address: 52.218.121.90
 ```
-20) We can alos see an analysis done in Joesandbox.com for the same payload that confirms the behaviour:
+20) We can also see an analysis done in Joesandbox.com for the same payload that confirms the behaviour:
 
 ![Joe Sandbox](./images/joesandbox.com.png?raw=true "Joe Sandbox")
 
@@ -583,5 +583,5 @@ Conection to 52.218.52[.]163
 |   |   |
 |---|---|
 | landvoque.s3.eu-west-1.amazonaws[.]com  |  52.218.52[.]163 |
-|   QDHCSENZCHICEZI�.msi | a1bc36ad91480fef29677d4499805fd5fb94375885754689e88df3bd7e49966c  |
+|  QDHCSENZCHICEZI�.msi | a1bc36ad91480fef29677d4499805fd5fb94375885754689e88df3bd7e49966c  |
 
