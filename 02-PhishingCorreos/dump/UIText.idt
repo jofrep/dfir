@@ -1,0 +1,114 @@
+Key	Text
+s72	S255
+UIText	Key
+SearchPrereq	Searching for installed applications
+SelAdvertiseCD	Aquesta característica estarà disponible per ésser executada des del CD
+AbsentPath	
+MenuNetwork	Serà instal·lada per executar-se des de la xarxa
+MenuAllCD	La característica sencera s'instal·larà per a ésser executada des del CD
+SelParentCostNegNeg	Aquesta característica allibera [1] del seu disc dur. Té [2] de [3] característiques secundàries seleccionades. Les característiques secundàries alliberen [4] del seu disc dur.
+GB	GB
+PrereqReqMinOnly	{[2] or higher}
+bytes	bytes
+TimeRemaining	Temps restant: {[1] minuts }{[2] segons}
+SelLocalNetwork	Aquesta característica serà eliminada del seu disc dur local, però romandrà disponible per ésser executada des de la xarxa
+KB	KB
+MenuAllLocal	La característica sencera s'instal·larà per a ésser executada des del disc dur local
+SelChildCostPos	Aquesta característica necessita [1] del seu disc dur.
+MB	MB
+VolumeCostDifference	Diferència
+MenuCD	Serà instal·lada per executar-se des de CD
+MenuAdvertise	La característica s'instal·larà quan sigui necessari
+MenuAbsent	La característica sencera no serà disponible
+MenuAllNetwork	La característica sencera s'instal·larà per a ésser executada des de la xarxa
+MenuLocal	Serà instal·lada al seu disc dur
+ScriptInProgress	Recollint informació necessària...
+SelCDAbsent	Aquesta característica serà desinstal·lada completamente, no podrà ésser executada des del CD
+SelAbsentAbsent	Aquesta característica romandrà desinstal·lada
+SelAbsentAdvertise	S'establirà que aquesta característica s'instal·li només quan sigui necessari
+SelAbsentCD	Aquesta característica serà instal·lada per a ésser executada des de CD
+SQLShowDatabasesMsg	Connecting to database server...
+ConfigurePackage	Configuring [1]
+SQLFetchTitle	ODBC
+SelCDCD	Aquesta característica romandrà per funcionar des del CD
+SelCDAdvertise	Aquesta característica passarà de l'estat d'ésser executada des del CD al d'ésser instal·lada que sigui necessari
+SelAbsentLocal	Aquesta característica serà instal·lada al disc dur local
+HttpPostTitle	 
+SelCDLocal	Aquesta característica passarà de l'estat d'ésser executada des del CD al d'ésser instal·lada al seu disc dur local
+SelAbsentNetwork	Aquesta característica será instal·lada per a ésser executada des de la xarxa
+SelAdvertiseAbsent	Aquesta característica no estarà disponible
+SelAdvertiseAdvertise	S'instal·larà quan sigui necessari
+VolumeCostAvailable	Disponible
+SelLocalLocal	Aquesta característica romandrà al seu disc dur local
+SQLBrowseTitle	SQL
+SelLocalAdvertise	Aquesta característica serà eliminada del seu disc dur local, però s'establirà que s'instal·li quan sigui necesari
+SelLocalAbsent	Aquesta característica serà eliminada completament
+SelAdvertiseLocal	Aquesta característica serà instal·lada al seu disc dur local
+SelAdvertiseNetwork	Aquesta característica estarà disponible per ésser executada des de la xarxa
+SelChildCostNeg	Aquesta característica allibera [1] del seu disc dur.
+SelCostPending	Recopilant el cost per aquesta característica...
+SharePointLogWspNoOptions	Skipping incomplete CAB. Full options string: [1].
+SelLocalCD	Aquesta característica serà eliminada del seu disc dur local, però romandrà disponible per ésser executada des del CD
+SQLFetchMsg	Querying database...
+SelNetworkAbsent	Aquesta característica serà desinstal·lada completamente, no podrà ésser executada des de la xarxa
+SelNetworkAdvertise	Aquesta característica passarà de l'estat d'ésser executada des de la xarxa al d'ésser instal·lada que sigui necessari
+SelNetworkLocal	Aquesta característica passarà de l'estat d'ésser executada des de la xarxa al d'ésser instal·lada al disc dur local
+SelNetworkNetwork	Aquesta característica romandrà per funcionar des de la xarxa
+BrowseFolderLocation	Location
+SelParentCostPosNeg	Aquesta característica necessita [1] del seu disc dur. Té [2] de [3] característiques secundàries selecccionades. Les característiques secundàries alliberen [4] del seu disc dur.
+SelParentCostNegPos	Aquesta característica allibera [1] del seu disc dur. Té [2] de [3] característiques secundàries seleccionades. Les característiques secundàries necessiten [4] del seu disc dur.
+SelParentCostPosPos	Aquesta característica necessita [1] del seu disc dur. Té [2] de [3] característiques secundàries seleccionades. Les característiques secundàries requereixen [4] del seu disc dur.
+VolumeCostRequired	Necessari
+VolumeCostSize	Tamany de disc
+VolumeCostOthersGroup	Unused drives
+VolumeCostDrivesGroup	Installation drives
+VolumeCostVolume	Volum
+ODBCTestTitle	ODBC
+ODBCTestMsg	Espera mentre es prova la connexió...
+SQLBrowseMsg	Cercant Servidors SQL a la xarxa...
+SQLShowDatabasesTitle	ODBC
+HttpPostMsg	Enviant dades recollides...
+VolumeCostBadGroup	Insufficient space
+BrowseFolderSelectFolder	Select Folder
+BrowseFolderName	Folder name:
+Warning	Warning
+PrereqLabel	[1]
+PrereqReq	{[2] - [3]}
+PrereqReqMaxOnly	{[3] or lower}
+PrereqReqExact	[2]
+SharePointLogNoUrl	Warning: solution may not be deployed correctly. A valid URL was not found in AI_WSP_URL property and the solution is not global or local.
+PrereqFound	[4]
+PrereqAction	[6]
+PrereqInstalled	Installed
+PrereqInstallAction	Install
+PrereqMandatoryInstallAction	Must Install
+PrereqSkipAction	Skip
+DownloadingPrereq	Downloading [1]
+InstallingPrereq	Installing [1]
+SharePointLogFinish	Finishing SharePoint solution deployment
+OpenSitePrereq	Opening site of [1]
+SharePointLogUninstallFinish	Finished uninstalling SharePoint solutions
+ExtractPrereq	Extracting [1]
+OpenSiteWaitPrereq	The installer is waiting for you to locate, download and install following prerequisites onto your computer. Press OK when you are ready to continue installation.
+HtmlHostNavError	<body><h3 style="color:darkred;">Error loading resource:</h3><p style="white-space:nowrap">"[1]"</p></body>
+SharePointLogNoWsps	UIText.SharePointLogNoWsps
+SharePointLogMissingStsadm	Incorrect SharePoint or MSI configuration. Please make sure that your installer has the same package type (32-bit or 64-bit) as SharePoint.
+SharePointLogInstall	Running in first time install mode.
+SharePointLogMaintenance	Running in maintenance mode.
+SharePointLogUninstall	Running in uninstall mode.
+SharePointLogWspNoName	Skipping CAB with no name. Full options string: [1].
+SharePointLogWspNoFile	CAB file not found: [1]. Skipping.
+SharePointLogAddingSln	Adding solution: [1].
+SharePointLogDeployingSln	Deploying solution [1] to URL [2].
+SharePointLogRetractingSln	Retracting solution: [1].
+SharePointLogRetractingSlnAdmin	Retracting solution [1] from administrative virtual server [2].
+SharePointLogDeletingSln	Deleting solution: [1].
+SharePointLogStart	Starting SharePoint solution deployment
+SharePointLogUninstallStart	Uninstalling SharePoint solutions
+SharePointLogActivatingFeature	UIText.SharePointLogActivateFeature
+InstallMessage	Installing files.
+NumberValidationTipTitle	Unacceptable Character
+NumberValidationTipMsg	You can only type a number here.
+UninstallMsg	Are you sure you want to uninstall [ProductName]?
+InstallingPackage	Installing [1]
+UnInstallingPackage	Removing [1]

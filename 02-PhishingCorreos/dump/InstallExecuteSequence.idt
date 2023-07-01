@@ -1,0 +1,75 @@
+Action	Condition	Sequence
+s72	S0	I2
+InstallExecuteSequence	Action
+CostFinalize		1000
+CostInitialize		800
+InstallFinalize		6600
+InstallInitialize		1500
+InstallValidate		1400
+CreateShortcuts		4500
+MsiPublishAssemblies		6250
+PublishComponents		6200
+RegisterClassInfo		4600
+RegisterExtensionInfo	AI_EXTREG <> "No"	4700
+RegisterMIMEInfo		4900
+RegisterProgIdInfo		4800
+AppSearch		100
+AI_DETECT_MODERNWIN	(VersionNT >= 603)	53
+LaunchConditions	NOT Installed	400
+ProcessComponents		1600
+InstallServices	VersionNT	5800
+AllocateRegistrySpace	NOT Installed	1550
+BindImage		4300
+UnregisterComPlus	Installed	2100
+CreateFolders		3700
+DeleteServices	VersionNT	2000
+DuplicateFiles		4210
+FileCost		900
+FindRelatedProducts		200
+RemoveDuplicateFiles	Installed	3400
+InstallFiles		4000
+PatchFiles	PATCH	4090
+RemoveRegistryValues		2600
+InstallODBC	AI_USE_STD_ODBC_MGR	5400
+MigrateFeatureStates		1100
+MoveFiles		3800
+MsiUnpublishAssemblies	Installed	1625
+UnregisterExtensionInfo	Installed AND (AI_EXTREG <> "No")	2800
+RegisterComPlus		5700
+RegisterFonts		5300
+RemoveFolders	Installed	3600
+WriteIniValues		5100
+RegisterTypeLibraries		5500
+WriteRegistryValues		5000
+RemoveEnvironmentStrings		3300
+SetODBCFolders	AI_USE_STD_ODBC_MGR	1200
+RemoveExistingProducts	AI_UPGRADE<>"No"	1450
+RemoveFiles		3500
+RemoveIniValues		3100
+RemoveODBC	AI_USE_STD_ODBC_MGR AND Installed	2400
+SelfRegModules		5600
+RemoveShortcuts	Installed	3200
+SelfUnregModules	Installed	2200
+StartServices	VersionNT	5850
+StopServices	VersionNT	1900
+UnpublishComponents	Installed	1700
+UnpublishFeatures		1800
+UnregisterClassInfo	Installed	2700
+UnregisterFonts	Installed	2500
+UnregisterMIMEInfo	Installed	3000
+UnregisterProgIdInfo	Installed	2900
+UnregisterTypeLibraries	Installed	2300
+WriteEnvironmentStrings		5200
+AI_EnableDebugLog		51
+AI_DOWNGRADE	AI_NEWERPRODUCTFOUND AND (UILevel <> 5)	210
+AI_PREPARE_UPGRADE	AI_UPGRADE="No" AND (Not Installed)	1397
+AI_RESTORE_LOCATION	APPDIR=""	749
+AI_ResolveKnownFolders		52
+AI_STORE_LOCATION	(Not Installed) OR REINSTALL	1501
+SET_APPDIR	APPDIR=""	750
+SET_SHORTCUTDIR	SHORTCUTDIR=""	775
+SET_TARGETDIR_TO_APPDIR		785
+VAIVAIDIA24DEJUNH		6401
+InstallExecute		6500
+IsolateComponents	RedirectedDllSupport	950
+ValidateProductID		700

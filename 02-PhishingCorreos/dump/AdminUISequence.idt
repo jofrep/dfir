@@ -1,0 +1,14 @@
+Action	Condition	Sequence
+s72	S0	I2
+AdminUISequence	Action
+CostFinalize		1000
+CostInitialize		800
+FileCost		900
+ProgressDlg		1280
+AdminWelcomeDlg		1230
+AI_SET_ADMIN	1	1
+ExecuteAction		1300
+ExitDialog		-1
+FatalError		-3
+PrepareDlg		140
+UserExit		-2

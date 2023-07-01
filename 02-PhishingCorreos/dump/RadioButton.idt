@@ -1,0 +1,5 @@
+Property	Order	Value	X	Y	Width	Height	Text	Help
+s72	i2	s0	i2	i2	i2	i2	L0	L50
+RadioButton	Property	Order
+AppsShutdownOption	1	All	5	5	320	20	Automàticamente &tancar les aplicacions i intentar arrencar-les de nou al finalitzar la instal·lació.	
+AppsShutdownOption	2	None	5	25	320	15	&No tancar les aplicacions. (Serà necessari arrencar de nou.)	

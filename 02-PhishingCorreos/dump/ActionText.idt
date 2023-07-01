@@ -1,0 +1,73 @@
+Action	Description	Template
+s72	S0	S0
+ActionText	Action
+CostFinalize	S'està calculant els requeriments d'espai	
+CostInitialize	S'està calculant els requeriments d'espai	
+InstallValidate	S'està validant la instal·lació	
+CreateShortcuts	S'estan creant dreceres	Drecera: [1]
+MsiPublishAssemblies	S'està publicant informació de l'assemblat	Context de l'aplicació:[1], Nom de l'assemblatge:[2]
+PublishComponents	S'està publicant els components acceptats	ID del component: [1], Qualificador: [2]
+PublishFeatures	S'estan publicant les característiques del producte	Característica: [1]
+PublishProduct	S'està publicant la informació del producte	
+RegisterClassInfo	S'estan registrant servidors de classes	Id de la classe: [1]
+RegisterExtensionInfo	S'estan registrant servidors d'extensions	Extensió: [1]
+RegisterMIMEInfo	S'està registrant informació MIME	Tipus de contingut MIME: [1], extensió: [2]
+RegisterProgIdInfo	S'estan registrant identificadors de programa	IdProg: [1]
+AppSearch	S'està buscant aplicacions instal·lades	Propietat: [1], Signatura: [2]
+LaunchConditions	L'estan avaluant les condicions d'execució	
+ProcessComponents	S'està actualitzant el registre de components	
+InstallServices	S'estan instal·lan serveis nous	Servei: [2]
+UnmoveFiles	S'estan eliminant els fitxers moguts	Fitxer: [1], directori: [9]
+Advertise	S'està mostrant l'aplicació	
+AllocateRegistrySpace	S'està assignant l'espai del registre	Espai lliure: [1]
+CCPSearch	S'està buscant productes necessaris	
+RollbackCleanup	S'estan eliminant les copies de seguretat	Fitxer: [1]
+BindImage	S'està lligant els executables	Fitxer: [1]
+UnregisterComPlus	S'estàn desregistrant els components i les aplicacions COM+	IdApl: [1]{{, Tipus d'apl.: [2]}}
+RMCCPSearch	S'estan buscant productes necessaris	
+UnpublishProduct	S'està despublicant la informació del producte	
+CreateFolders	S'estan creant carpetes	Carpeta: [1]
+DeleteServices	S'estan eliminant serveis	Servei: [1]
+DuplicateFiles	S'estan creant fitxers duplicats	Fitxer: [1],  Carpeta: [9],  Mida: [6]
+FileCost	S'està calculant els requeriments d'espai	
+FindRelatedProducts	S'esta buscant aplicacions relacionades	S'ha trobat l'aplicació: [1]
+GenerateScript	S'estan generant operacions d'script per l'acció	[1]
+InstallAdminPackage	S'estan copiant fitxers d'instal·lació de la xarxa	Fitxer: [1],  Carpeta: [9],  Mida: [6]
+RemoveDuplicateFiles	S'estan esborrant fitxers duplicats	Fitxer: [1], directori: [9]
+InstallFiles	S'estan copian fitxers nous	Fitxer: [1],  Carpeta: [9],  Mida: [6]
+PatchFiles	S'estan apedaçant fitxers	Fitxer: [1],  Carpeta: [2],  Mida: [3]
+RemoveRegistryValues	S'estan eliminant valors del registre del sistema	Clau: [1], nom: [2]
+InstallODBC	S'està instal·lant components ODBC	
+InstallSFPCatalogFile	S'està instal·lant el catàleg del sistema	Fitxer: [1],  Dependències: [2]
+MigrateFeatureStates	S'estan migrant els estats de les característiques des d'aplicacions relacionades	Aplicació: [1]
+MoveFiles	S'estan movent fitxers	Fitxer: [1],  Carpeta: [9],  Mida: [6]
+MsiUnpublishAssemblies	S'està eliminant la publicació de la informació de l'assemblat	Context de l'aplicació:[1], Nom de l'assemblatge:[2]
+UnregisterExtensionInfo	S'estan desregistrant els servidors d'extensions	Extensió: [1]
+Rollback	Acció de restauració:	
+RegisterProduct	S'està registrant el producte	
+RegisterComPlus	S'estan registrant aplicacions i components COM+	IdApl: [1]{{, Tipus d'apl: [2], Usuaris: [3], RSN: [4]}}
+RegisterFonts	S'estan registrant tipus de lletres	Tipus de lletra: [1]
+RemoveFolders	S'estan eliminant carpetes	Carpeta: [1]
+WriteIniValues	S'estan escribint valors dels fitxers INI	Fitxer: [1], secció: [2], clau: [3], valor: [4]
+RegisterTypeLibraries	S'estan registrant biblioteques de tipus	IdLlib: [1]
+WriteRegistryValues	S'estan escribint valors del registre del sistema	Clau: [1], nom: [2], valor: [3]
+RegisterUser	S'està registrant l'usuari	
+RemoveEnvironmentStrings	S'estan actualitzant les cadenes d'entorn	Nom: [1], valor: [2], acció: [3]
+SetODBCFolders	S'estan inicialitzant directoris ODBC	
+RemoveExistingProducts	S'estan eliminant les aplicacions	Aplicació: [1], Línia de comandes: [2]
+RemoveFiles	S'estan eliminant fitxers	Fitxer: [1], directori: [9]
+RemoveIniValues	S'estan eliminant entrades de fitxers INI	Fitxer: [1], secció: [2], clau: [3], valor: [4]
+RemoveODBC	S'estan eliminant components ODBC	
+SelfRegModules	S'estan registrant mòduls	Fitxer: [1], carpeta: [2]
+RemoveShortcuts	S'estan eliminant dreceres	Drecera: [1]
+SelfUnregModules	S'estan desregistrant mòduls	Fitxer: [1], carpeta: [2]
+StartServices	S'estan iniciant serveis	Servei: [1]
+StopServices	S'estan parant serveis	Servei: [1]
+UnpublishComponents	S'estan desplublicant components acceptats	Id. del component: [1], qualificador: [2]
+UnpublishFeatures	S'estan despublicant les característiques del producte	Característica: [1]
+UnregisterClassInfo	Desregistra els servidors de classes	Id. de la classe: [1]
+UnregisterFonts	S'estan desregistrant els tipus de lletra	Tipus de lletra: [1]
+UnregisterMIMEInfo	S'està desregistrant la informació MIME	Tipus de contingut MIME: [1], extensió: [2]
+UnregisterProgIdInfo	S'estan desregistrant els identificadors de programa	IdProg: [1]
+UnregisterTypeLibraries	S'estan desregistrant les biblioteques de tipus	Id. de la biblioteca: [1]
+WriteEnvironmentStrings	S'estan actualitzant les cadenes d'entorn	Nom: [1], valor: [2], acció [3]

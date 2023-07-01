@@ -1,0 +1,93 @@
+Property	Value
+s72	l0
+Property	Property
+UpgradeCode	{C8148A42-F92D-4E46-8779-77D6E5A99578}
+DiskPrompt	[1]
+SecureCustomProperties	OLDPRODUCTS;AI_NEWERPRODUCTFOUND
+AI_BITMAP_DISPLAY_MODE	0
+AI_CURRENT_YEAR	2023
+MSIFASTINSTALL	7
+ButtonText_Yes	&Si
+ARPCOMMENTS	La base de dades del instal·lador conté la lògica i les dades necessàries per instal·lar rerefencia-correo-PDF.
+DialogBitmap	dialog.jpg
+InstallMode	Típic
+ARPNOMODIFY	1
+PROMPTROLLBACKCOST	P
+AppsShutdownOption	All
+REBOOT	Suppress
+LIMITUI	1
+ButtonText_Repair	&Reparar
+ProductLanguage	1027
+AiPreferFastOem	1
+ProductVersion	32.19.13
+ButtonText_Finish	&Finalitzar
+Manufacturer	correosevarltda
+ProductCode	{44C281C8-17E9-49C1-B3CD-C1E9F797BE59}
+WindowsType9XDisplay	Windows 9x/ME
+ProductName	rerefencia-correo-PDF
+AiPrerequisitesColums	PrereqLabel,PrereqReq,PrereqFound,PrereqAction
+WindowsType9X	Windows 9x/ME
+ButtonText_Return	&Tornar
+WindowsTypeNT40	Windows NT 4.0
+WindowsTypeNT40Display	Windows NT 4.0
+InstallModeTypical	Típic
+WindowsTypeNT50	Windows 2000
+WindowsTypeNT50Display	Windows 2000
+ButtonText_Decline	&Decline
+WindowsTypeNT5X	Windows XP/2003
+ButtonText_Remove	&Eliminar
+WindowsTypeNT5XDisplay	Windows XP/2003
+ButtonText_OK	OK
+ErrorDialog	ErrorDlg
+ButtonText_Back	< &Enrera
+Progress2	instal·li
+INSTALLLEVEL	3
+EnableUserControl	1
+ButtonText_Browse	E&xplorar...
+ButtonText_Cancel	Cancel·lar
+Progress1	Instal·lant
+ButtonText_Exit	&Sortir
+ButtonText_Accept	&Accept
+ButtonText_Ignore	&Ignorar
+ButtonText_Install	&Instal·lar
+CtrlEvtRemoving	Eliminant
+ButtonText_No	&NO
+ButtonText_Reset	&Reiniciar
+Text_Next	Següent
+ButtonText_Resume	&Reprendre
+ButtonText_Retry	&Reintentar
+CtrlEvtChanging	Canviant
+CtrlEvtchanges	canvïi
+CtrlEvtRepairing	reparant
+CtrlEvtremoves	elimini
+CtrlEvtrepairs	repari
+InstallModeComplete	Complet
+InstallModeCustom	Personalitzat
+Setup	Instal·lació
+Wizard	Auxiliar d'instal·lació
+ButtonText_Next	&Següent >
+Text_Install	Instal·lar
+AI_CommitButton	ButtonText_Install
+CompleteSetupIcon	completi
+CustomSetupIcon	custicon
+DefaultUIFont	DlgFont8
+DlgTitleFont	{\DlgFontBold8}
+ExclamationIcon	exclamic
+InfoIcon	info
+InstallerIcon	insticon
+RemoveIcon	removico
+RepairIcon	repairic
+UpDirIcon	Up
+NewDirIcon	New
+AI_CF_TITLE_TEXT_STYLE	{\CfTitleFont}
+BannerBitmap	banner.jpg
+AI_ThemeStyle	aero
+AI_FrameColor	steelblue
+AI_LOG_CHECKBOX	1
+AiStyleConditions	 
+TabBackground	tabback
+AI_BUILD_NAME	DefaultBuild
+AI_BOOTSTRAPPERLANGS	1027;
+AI_BOOTSTRAPPERORIGINALLANG	1027
+AI_PACKAGE_TYPE	Intel
+AI_EUIMSI	1

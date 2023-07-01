@@ -1,0 +1,7 @@
+Condition	Description
+s0	l255
+LaunchCondition	Condition
+VersionNT	[ProductName] no pot ésser instal·lat a [WindowsType9XDisplay].
+((VersionNT <> 501) AND (VersionNT <> 502))	[ProductName] no pot ésser instal·lat a [WindowsTypeNT5XDisplay].
+(VersionNT <> 400)	[ProductName] no pot ésser instal·lat a [WindowsTypeNT40Display].
+(VersionNT <> 500)	[ProductName] no pot ésser instal·lat a [WindowsTypeNT50Display].

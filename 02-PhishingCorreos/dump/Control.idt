@@ -1,0 +1,283 @@
+Dialog_	Control	Type	X	Y	Width	Height	Attributes	Property	Text	Control_Next	Help
+s72	s50	s20	i2	i2	i2	i2	I4	S50	L0	S50	L255
+Control	Dialog_	Control
+ErrorDlg	Y	PushButton	100	80	56	17	3		[ButtonText_Yes]		
+ErrorDlg	N	PushButton	100	80	56	17	3		[ButtonText_No]		
+ErrorDlg	A	PushButton	100	80	56	17	3		[ButtonText_Cancel]		
+ErrorDlg	C	PushButton	100	80	56	17	3		[ButtonText_Cancel]		
+ErrorDlg	ErrorIcon	Icon	15	15	24	24	5242881		[InfoIcon]		Icona d'informació|
+ErrorDlg	ErrorText	Text	48	15	205	60	3		Text d'informació		
+ErrorDlg	I	PushButton	100	80	56	17	3		[ButtonText_Ignore]		
+ErrorDlg	O	PushButton	100	80	56	17	3		[ButtonText_OK]		
+ErrorDlg	R	PushButton	100	80	56	17	3		[ButtonText_Retry]		
+ProgressDlg	Text	Text	35	65	300	30	196611		Esperi fins que el [Wizard] [Progress2] [ProductName]. Pot durar diversos minuts.	StatusLabel	
+ProgressDlg	ActionText	Text	80	100	255	10	3			Title	
+ProgressDlg	Title	Text	20	15	250	15	196611		[DlgTitleFont][Progress1] [ProductName]	Text	
+ProgressDlg	BannerBitmap	Bitmap	0	0	370	44	1048577		[BannerBitmap]	BottomLine	
+ProgressDlg	Cancel	PushButton	304	243	56	17	0		[ButtonText_Cancel]	BannerBitmap	
+ProgressDlg	Next	PushButton	236	243	56	17	1		[ButtonText_Next]	BannerLine	
+ProgressDlg	BottomLine	Line	5	234	368	0	1			Logo	
+ProgressDlg	Logo	Text	4	228	70	12	1		Advanced Installer	Back	
+ProgressDlg	Back	PushButton	180	243	56	17	1		[ButtonText_Back]	Next	
+ProgressDlg	BannerLine	Line	0	44	372	0	1			ActionText	
+ProgressDlg	ProgressBar	ProgressBar	35	115	300	10	65537		Procés finalitzat	Cancel	
+ProgressDlg	StatusLabel	Text	35	100	45	10	3		Estat.	ProgressBar	
+AdminWelcomeDlg	Description	Text	135	86	220	60	196611		El [Wizard] creará una imatge de servidor de [ProductName] en la ubicació de xarxa especificada. Seleccioni següent per continuar o cancel·lar per sortir del [Wizard].	BottomLine	
+AdminWelcomeDlg	Title	Text	135	20	220	60	196611		{\VerdanaBold13}Benvingut al [Wizard] de [ProductName]	Description	
+AdminWelcomeDlg	Cancel	PushButton	304	243	56	17	3		[ButtonText_Cancel]	Bitmap	
+AdminWelcomeDlg	Bitmap	Bitmap	0	0	370	234	1048577		[DialogBitmap]	Back	
+AdminWelcomeDlg	Next	PushButton	236	243	56	17	3		[ButtonText_Next]	Cancel	
+AdminWelcomeDlg	BottomLine	Line	0	234	372	0	1			Next	
+AdminWelcomeDlg	Back	PushButton	180	243	56	17	1		[ButtonText_Back]	Title	
+ExitDialog	Description	Text	135	86	220	20	196611		Faci click al botó de finalitzar per sortir del [Wizard]	BottomLine	
+ExitDialog	Title	Text	135	20	220	60	196611		{\VerdanaBold13}Finalitzant el [Wizard] de [ProductName]	LaunchProdText	
+ExitDialog	Cancel	PushButton	304	243	56	17	1		[ButtonText_Cancel]	Bitmap	
+ExitDialog	Bitmap	Bitmap	0	0	370	234	1048577		[DialogBitmap]	Back	
+ExitDialog	BottomLine	Line	0	234	372	0	1			Finish	
+ExitDialog	Back	PushButton	180	243	56	17	1		[ButtonText_Back]	ViewReadmeText	
+ExitDialog	Finish	PushButton	236	243	56	17	3		[ButtonText_Finish]	Cancel	
+ExitDialog	ViewReadmeText	Text	148	140	220	20	196611		Llegeixi el Readme	ViewReadmeCheckBox	
+ExitDialog	ViewReadmeCheckBox	CheckBox	135	140	10	10	3	VIEWREADME		Title	
+ExitDialog	LaunchProdText	Text	148	170	220	20	196611		Executa [ProductName]	LaunchProdCheckBox	
+ExitDialog	LaunchProdCheckBox	CheckBox	135	170	10	10	3	RUNAPPLICATION		Description	
+FatalError	Title	Text	135	20	220	60	196611		{\VerdanaBold13}El [Wizard] de [ProductName] ha finalitzat prematurament	LogCheckBox	
+FatalError	Cancel	PushButton	304	243	56	17	1		[ButtonText_Cancel]	Bitmap	
+FatalError	Bitmap	Bitmap	0	0	370	234	1048577		[DialogBitmap]	Back	
+FatalError	BottomLine	Line	0	234	372	0	1			Title	
+FatalError	Back	PushButton	180	243	56	17	1		[ButtonText_Back]	Description2	
+FatalError	Finish	PushButton	236	243	56	17	3		[ButtonText_Finish]	Cancel	
+FatalError	Description2	Text	135	131	220	20	196611		Faci click al botó de finalitzar per sortid de [Wizard].	Description1	
+FatalError	Description1	Text	135	86	220	40	196611		La instal·lació de [ProductName] ha finalitzat prematurament per un error. El seu sistema no s'ha modificat. Per instal·lar aquest programa posteriorment, executi l'instal·lador un altre cop.	BottomLine	
+FatalError	LogCheckBox	CheckBox	135	158	10	10	2	AI_LOG_CHECKBOX		LogCheckBoxLabel	
+FatalError	LogCheckBoxLabel	Text	148	158	75	10	65538	AI_LOG_CHECKBOX_TEXT	Show log	Finish	
+PrepareDlg	Description	Text	135	86	220	20	196611		Esperi mentre el [Wizard] es prepara per guiar-lo a través de la instal·lació.	BottomLine	
+PrepareDlg	ActionText	Text	135	115	220	20	196611			ActionData	
+PrepareDlg	Title	Text	135	20	220	60	196611		{\VerdanaBold13}Benvingut al [Wizard] de [ProductName]	Next	
+PrepareDlg	Cancel	PushButton	304	243	56	17	0		[ButtonText_Cancel]	Bitmap	
+PrepareDlg	Bitmap	Bitmap	0	0	370	234	1048577		[DialogBitmap]	Title	
+PrepareDlg	Next	PushButton	236	243	56	17	1		[ButtonText_Next]	Description	
+PrepareDlg	BottomLine	Line	0	234	372	0	1			Back	
+PrepareDlg	Back	PushButton	180	243	56	17	1048577		[ButtonText_Back]	ActionText	
+PrepareDlg	ActionData	Text	135	142	220	30	196611			Cancel	
+UserExit	Title	Text	135	20	220	60	196611		{\VerdanaBold13}El [Wizard] de [ProductName] ha estat interromput	Description2	
+UserExit	Cancel	PushButton	304	243	56	17	1		[ButtonText_Cancel]	Bitmap	
+UserExit	Bitmap	Bitmap	0	0	370	234	1048577		[DialogBitmap]	Back	
+UserExit	BottomLine	Line	0	234	372	0	1			Finish	
+UserExit	Back	PushButton	180	243	56	17	1		[ButtonText_Back]	Title	
+UserExit	Finish	PushButton	236	243	56	17	3		[ButtonText_Finish]	Cancel	
+UserExit	Description2	Text	135	131	220	20	196611		Fagi clic al botó de Finalitzar per sortir del [Wizard].	Description1	
+UserExit	Description1	Text	135	86	220	40	196611		La instal·lació de [ProductName] ha estat interrompuda. El seu sistema no ha estat modificat. Per instal·lar aquest programa més tard, executi de nou la instal·lació.	BottomLine	
+CancelDlg	Text	Text	48	15	194	30	3		Està segur que vol cancel·lar la instal·lació de [ProductName]?	No	
+CancelDlg	Icon	Icon	15	15	24	24	5242881		[InfoIcon]	Text	Icona d'informació|
+CancelDlg	Yes	PushButton	72	57	56	17	0		[ButtonText_Yes]	Icon	
+CancelDlg	No	PushButton	132	57	56	17	3		[ButtonText_No]	Yes	
+FolderDlg	Description	Text	25	23	280	15	196611		Aquesta es la carpeta a on [ProductName] s'instal·larà.	BannerLine	
+FolderDlg	Text	Text	25	70	320	40	3		Per instal·lar en aquesta carpeta faci click en "Següjent". Per instal·lar-ho en una altra carpeta introduceixi a sota o faci click en "Examinar".	Description	
+FolderDlg	Title	Text	15	6	200	15	196611		[DlgTitleFont]Seleccioni la carpeta d'instal·lació	Text	
+FolderDlg	BannerBitmap	Bitmap	0	0	370	44	1048577		[BannerBitmap]	Title	|
+FolderDlg	Cancel	PushButton	304	243	56	17	3		[ButtonText_Cancel]	Back	
+FolderDlg	Next	PushButton	236	243	56	17	3		[ButtonText_Next]	FolderLabel	
+FolderDlg	FolderLabel	Text	20	114	348	12	3		&Carpeta:	FolderEdit	|
+FolderDlg	FolderEdit	PathEdit	18	126	252	18	7	APPDIR		Browse	|
+FolderDlg	Browse	PushButton	276	126	90	18	3		[ButtonText_Browse]	BottomLine	|
+FolderDlg	BottomLine	Line	5	234	368	0	1			Logo	
+FolderDlg	Logo	Text	4	228	70	12	1		Advanced Installer	Cancel	
+FolderDlg	Back	PushButton	180	243	56	17	3		[ButtonText_Back]	BannerBitmap	
+FolderDlg	BannerLine	Line	0	44	372	0	1			Next	
+MaintenanceTypeDlg	Description	Text	25	23	280	20	196611		Seleccioni l'acció que vol realitzar.	ChangeText	
+MaintenanceTypeDlg	Title	Text	15	6	240	15	196611		[DlgTitleFont]Modifica, repara o elimina la instal·lació	RepairText	
+MaintenanceTypeDlg	BannerBitmap	Bitmap	0	0	370	44	1048577		[BannerBitmap]	BottomLine	
+MaintenanceTypeDlg	Cancel	PushButton	304	243	56	17	3		[ButtonText_Cancel]	BannerBitmap	
+MaintenanceTypeDlg	Next	PushButton	236	243	56	17	1		[ButtonText_Next]	Cancel	
+MaintenanceTypeDlg	BottomLine	Line	5	234	368	0	1			Logo	
+MaintenanceTypeDlg	Logo	Text	4	228	70	12	1		Advanced installer	Description	
+MaintenanceTypeDlg	Back	PushButton	180	243	56	17	3		[ButtonText_Back]	Next	
+MaintenanceTypeDlg	BannerLine	Line	0	44	372	0	1			Title	
+MaintenanceTypeDlg	ChangeLabel	Text	105	65	100	10	3		[DlgTitleFont]&Modificar	ChangeButton	
+MaintenanceTypeDlg	ChangeButton	PushButton	50	65	38	38	5767171		[CustomSetupIcon]	RepairLabel	Modifica la instal·lació|
+MaintenanceTypeDlg	RepairLabel	Text	105	114	100	10	3		[DlgTitleFont]Re&parar	RepairButton	
+MaintenanceTypeDlg	RepairButton	PushButton	50	114	38	38	5767171		[RepairIcon]	RemoveLabel	Repara la instal·lació|
+MaintenanceTypeDlg	RemoveLabel	Text	105	163	100	10	3		[DlgTitleFont]&Eliminar	RemoveButton	
+MaintenanceTypeDlg	RemoveButton	PushButton	50	163	38	38	5767171		[RemoveIcon]	Back	Elimina la Instal·lació|
+MaintenanceTypeDlg	ChangeText	Text	105	78	230	20	3		Permet a l'usuari canviar la manera com s'instal·len les característiques.	BannerLine	
+MaintenanceTypeDlg	RepairText	Text	105	127	230	30	3		Repara errors en l'estat de la instal·lació mes recent - arregla fitxers perduts o corruptes, dreceres i entrades del registre.	RemoveText	
+MaintenanceTypeDlg	RemoveText	Text	105	176	230	20	3		Elimina [ProductName] del seu ordinador.	ChangeLabel	
+MaintenanceWelcomeDlg	Description	Text	135	86	220	60	196611		El [Wizard] li permetrà canviar la manera com s'instal·len les característiques de [ProductName] en el seu ordinado o com eliminar [ProductName] del seu ordinador. Faci click en següent per continuar o en cancel·lar per sortir del [Wizard].	BottomLine	
+MaintenanceWelcomeDlg	Title	Text	135	20	220	60	196611		{\VerdanaBold13}Benvingut al [Wizard] de [ProductName]	Description	
+MaintenanceWelcomeDlg	Cancel	PushButton	304	243	56	17	3		[ButtonText_Cancel]	Bitmap	
+MaintenanceWelcomeDlg	Bitmap	Bitmap	0	0	370	234	1048577		[DialogBitmap]	Back	
+MaintenanceWelcomeDlg	Next	PushButton	236	243	56	17	3		[ButtonText_Next]	Cancel	
+MaintenanceWelcomeDlg	BottomLine	Line	0	234	372	0	1			Next	
+MaintenanceWelcomeDlg	Back	PushButton	180	243	56	17	1		[ButtonText_Back]	Title	
+BasicUIDlg	ActionText	Text	49	18	237	10	3			StatusLabel	
+BasicUIDlg	Cancel	PushButton	220	49	56	17	2		[ButtonText_Cancel]	Back	
+BasicUIDlg	Next	PushButton	81	49	56	17	2		[ButtonText_Next]	Cancel	
+BasicUIDlg	Back	PushButton	20	49	56	17	2		[ButtonText_Back]	ProgressBar	
+BasicUIDlg	ProgressBar	ProgressBar	10	34	276	11	1		ProgressBar	ActionText	
+BasicUIDlg	StatusLabel	Text	10	18	29	10	3		Estat.	Next	
+AdminBrowseDlg	Description	Text	25	23	280	20	196611		Examina fins a la carpeta de destí	BannerLine	
+AdminBrowseDlg	Title	Text	15	6	200	15	65539		[DlgTitleFont]Canvia l'actual carpeta de destí	Description	
+AdminBrowseDlg	OK	PushButton	304	243	56	17	3		[ButtonText_OK]	Cancel	
+AdminBrowseDlg	Up	PushButton	298	55	19	19	3670019		[UpDirIcon]	NewFolder	Puja un nivell
+AdminBrowseDlg	BannerBitmap	Bitmap	0	0	370	44	1048577		[BannerBitmap]	Title	
+AdminBrowseDlg	Cancel	PushButton	240	243	56	17	3		[ButtonText_Cancel]	ComboLabel	
+AdminBrowseDlg	PathEdit	PathEdit	100	202	246	17	3	TARGETDIR		BottomLine	
+AdminBrowseDlg	BottomLine	Line	5	234	368	0	1			Logo	
+AdminBrowseDlg	Logo	Text	4	228	70	12	1		Advanced Installer	OK	
+AdminBrowseDlg	BannerLine	Line	0	44	372	0	1			PathEdit	
+AdminBrowseDlg	ComboLabel	Text	25	58	60	10	3		&Cerca a:	DirectoryCombo	
+AdminBrowseDlg	DirectoryCombo	DirectoryCombo	86	55	204	80	458755	TARGETDIR		Up	
+AdminBrowseDlg	NewFolder	PushButton	325	55	19	19	3670019		[NewDirIcon]	DirectoryList	Crear una nova carpeta|
+AdminBrowseDlg	DirectoryList	DirectoryList	25	83	320	110	7	TARGETDIR		PathLabel	
+AdminBrowseDlg	PathLabel	Text	25	205	75	10	3		&Nom de la carpeta:	BannerBitmap	
+AdminInstallPointDlg	Description	Text	25	20	280	20	196611		Especifiqui una ubicació de xarxa per la imatge de servidor del producte [ProductName]	BannerLine	
+AdminInstallPointDlg	Text	Text	25	80	320	10	3		&Introdueixi una nova ubicació de xarxa o faci click en Examinar per buscar-ne una.	PathEdit	
+AdminInstallPointDlg	Title	Text	15	6	200	15	196611		[DlgTitleFont]Ubicació de xarxa	Description	
+AdminInstallPointDlg	BannerBitmap	Bitmap	0	0	370	44	1048577		[BannerBitmap]	Title	
+AdminInstallPointDlg	Cancel	PushButton	304	243	56	17	3		[ButtonText_Cancel]	BannerBitmap	
+AdminInstallPointDlg	Next	PushButton	236	243	56	17	3		[ButtonText_Next]	Cancel	
+AdminInstallPointDlg	PathEdit	PathEdit	25	93	320	18	3	TARGETDIR		Browse	
+AdminInstallPointDlg	Browse	PushButton	279	119	66	17	3		[ButtonText_Browse]	BottomLine	
+AdminInstallPointDlg	BottomLine	Line	5	234	368	0	1			Logo	
+AdminInstallPointDlg	Logo	Text	4	228	70	12	1		AdvancedInstaller	Back	
+AdminInstallPointDlg	Back	PushButton	180	243	56	17	3		[ButtonText_Back]	Next	
+AdminInstallPointDlg	BannerLine	Line	0	44	372	0	1			Text	
+BrowseDlg	Description	Text	25	23	280	20	196611		Examini fins a la carpeta de destí	BannerLine	
+BrowseDlg	Title	Text	15	6	200	15	196611		[DlgTitleFont]Canvii la carpeta de destí actual	Description	
+BrowseDlg	OK	PushButton	304	243	56	17	3		[ButtonText_OK]	Cancel	
+BrowseDlg	Up	PushButton	298	55	19	19	3670019		[UpDirIcon]	NewFolder	Pujar un nivell|
+BrowseDlg	BannerBitmap	Bitmap	0	0	370	44	1048577		[BannerBitmap]	Title	
+BrowseDlg	Cancel	PushButton	240	243	56	17	3		[ButtonText_Cancel]	ComboLabel	
+BrowseDlg	PathEdit	PathEdit	100	202	246	18	11	_BrowseProperty		BottomLine	
+BrowseDlg	BottomLine	Line	5	234	368	0	1			Logo	
+BrowseDlg	Logo	Text	4	228	70	12	1		Advanced Installer	OK	
+BrowseDlg	BannerLine	Line	0	44	372	0	1			PathEdit	
+BrowseDlg	ComboLabel	Text	25	58	60	10	3		&Cerca a:	DirectoryCombo	
+BrowseDlg	DirectoryCombo	DirectoryCombo	86	55	204	80	393227	_BrowseProperty		Up	
+BrowseDlg	NewFolder	PushButton	325	55	19	19	3670019		[NewDirIcon]	DirectoryList	Crear Una Nova Carpeta|
+BrowseDlg	DirectoryList	DirectoryList	25	83	320	110	15	_BrowseProperty		PathLabel	
+BrowseDlg	PathLabel	Text	25	205	75	10	3		&Nom de la carpeta:	BannerBitmap	
+CustomizeDlg	Description	Text	25	23	280	20	196611		Seleccioni la manera en que vol que s'instal·lin les característiques.	Box	
+CustomizeDlg	Text	Text	25	55	320	20	3		Faci click en les icones de l'arbre de sota per canviar la manera en que les característiques s'instalaran.	Tree	
+CustomizeDlg	Title	Text	15	6	200	15	196611		[DlgTitleFont]Instalació personalitzada	Text	
+CustomizeDlg	BannerBitmap	Bitmap	0	0	370	44	1048577		[BannerBitmap]	LocationLabel	
+CustomizeDlg	Cancel	PushButton	304	243	56	17	3		[ButtonText_Cancel]	BannerBitmap	
+CustomizeDlg	Next	PushButton	236	243	56	17	3		[ButtonText_Next]	Cancel	
+CustomizeDlg	Browse	PushButton	294	200	66	17	3		[ButtonText_Browse]	Reset	
+CustomizeDlg	BottomLine	Line	5	234	368	0	1			Logo	
+CustomizeDlg	Logo	Text	4	228	70	12	1		Advanced Installer	Back	
+CustomizeDlg	Back	PushButton	180	243	56	17	3		[ButtonText_Back]	Next	
+CustomizeDlg	BannerLine	Line	0	44	372	0	1			Title	
+CustomizeDlg	Tree	SelectionTree	25	85	175	95	7	_BrowseProperty	Arbre de seleccions	Browse	
+CustomizeDlg	Reset	PushButton	15	243	76	17	3		[ButtonText_Reset]	DiskCost	
+CustomizeDlg	DiskCost	PushButton	91	243	76	17	3		&Util·lització del disc	BottomLine	
+CustomizeDlg	LocationLabel	Text	25	200	50	10	3		Ubicació:	Location	
+CustomizeDlg	Location	Text	75	200	215	20	3	APPDIR	<La trajectòrica de la selecció>	Description	
+CustomizeDlg	Box	GroupBox	210	81	140	98	1			ItemSize	
+CustomizeDlg	ItemSize	Text	215	128	131	50	3		La mida de l'article actualment seleccionat.	ItemDescription	
+CustomizeDlg	ItemDescription	Text	215	90	131	30	3		Descripció multilínia de l'article actualment seleccionat.	BannerLine	
+DiskCostDlg	Description	Text	20	20	280	20	196611		L'espai de disc necessari per la instal·lació de les característiques seleccionades.	BannerLine	
+DiskCostDlg	Text	Text	20	53	330	40	3		Els volumns seleccionats (si n'hi ha) no tenen suficient espai de disc disponible per les característiques actualment seleccionades. Pot eliminar alguns fitxers seleccionats o instal3lar menys característiques en el(s) dispositiu(s) local(s), o seleccioni un altre dispositiu.	Description	
+DiskCostDlg	Title	Text	15	6	200	15	196611		[DlgTitleFont]Requeriments d'espai de disc	Text	
+DiskCostDlg	OK	PushButton	304	243	56	17	3		[ButtonText_OK]	BannerBitmap	
+DiskCostDlg	BannerBitmap	Bitmap	0	0	370	44	1048577		[BannerBitmap]	BottomLine	
+DiskCostDlg	BottomLine	Line	5	234	368	0	1			Logo	
+DiskCostDlg	Logo	Text	4	228	70	12	1		Advanced Installer	VolumeList	
+DiskCostDlg	BannerLine	Line	0	44	372	0	1			OK	
+DiskCostDlg	VolumeList	VolumeCostList	20	100	330	120	393223		{120}{70}{70}{70}{70}	Title	
+FilesInUse	Description	Text	20	23	280	20	196611		Alguns fitxers que s'han d'actualitzar estan actualment en us.	BannerLine	
+FilesInUse	Text	Text	20	55	330	30	3		Les següents aplicacions fan servir fitxers que ha d'actualitzar aquest setup. Pot tancar l'aplicació i fer click sobre el botó de reintentar o fer click sobre el botó d'ignorar perque l'instal·lador continui i es substitueixin aquests fitxers quan el sistema es reinicii.	List	
+FilesInUse	Title	Text	15	6	200	15	196611		[DlgTitleFont]Fitxers en ús	Text	
+FilesInUse	BannerBitmap	Bitmap	0	0	370	44	1048577		[BannerBitmap]	BottomLine	
+FilesInUse	BottomLine	Line	5	234	368	0	1			Logo	
+FilesInUse	Logo	Text	4	228	70	12	1		Advanced Installer	Title	
+FilesInUse	BannerLine	Line	0	44	372	0	1			Retry	
+FilesInUse	Retry	PushButton	304	243	56	17	3		[ButtonText_Retry]	Ignore	
+FilesInUse	Ignore	PushButton	235	243	56	17	3		[ButtonText_Ignore]	Exit	
+FilesInUse	Exit	PushButton	166	243	56	17	3		[ButtonText_Exit]	BannerBitmap	
+FilesInUse	List	ListBox	20	87	330	130	7	FileInUseProcess		Description	
+MsiRMFilesInUse	Description	Text	20	23	280	20	196611		Alguns fitxers que s'han d'actualitzar s'estan utilitzant actualment.	BannerLine	
+MsiRMFilesInUse	Text	Text	20	55	330	25	3		Les següents aplicacions estan fent servir fitxers que aquest setup ha d'actualitzar.	List	
+MsiRMFilesInUse	Title	Text	15	6	200	25	196611		[DlgTitleFont]Fitxers en ús	Description	
+MsiRMFilesInUse	OK	PushButton	236	243	56	17	3		[ButtonText_OK]	Cancel	
+MsiRMFilesInUse	BannerBitmap	Bitmap	0	0	370	44	1048577		[BannerBitmap]	Title	
+MsiRMFilesInUse	Cancel	PushButton	304	243	56	17	3		[ButtonText_Cancel]	BannerBitmap	
+MsiRMFilesInUse	BottomLine	Line	5	234	368	0	1			Logo	
+MsiRMFilesInUse	Logo	Text	4	228	70	12	1		Advanced Installer	OK	
+MsiRMFilesInUse	BannerLine	Line	0	44	372	0	1			Text	
+MsiRMFilesInUse	List	ListBox	20	82	330	89	7	FileInUseProcess		Options	
+MsiRMFilesInUse	Options	RadioButtonGroup	20	172	330	48	3	AppsShutdownOption		BottomLine	
+OutOfDiskDlg	Description	Text	20	20	280	20	196611		L'espai de disc necessitat per la instal·lació supera l'espai disponible.	BannerLine	
+OutOfDiskDlg	Text	Text	20	53	330	40	3		Els volums marcats no tenen suficient espai de disc disponible per les característiques actualment sel·leccionades. Pot eliminar alguns fitxers dels volums marcats o triar instal·lar menys característiques als dispositius o sel·leccionar altres dispositius.	Description	
+OutOfDiskDlg	Title	Text	15	6	200	15	196611		[DlgTitleFont]S'ha acabat l'espai de disc	Text	
+OutOfDiskDlg	OK	PushButton	304	243	56	17	3		[ButtonText_OK]	BannerBitmap	
+OutOfDiskDlg	BannerBitmap	Bitmap	0	0	370	44	1048577		[BannerBitmap]	BottomLine	
+OutOfDiskDlg	BottomLine	Line	5	234	368	0	1			Logo	
+OutOfDiskDlg	Logo	Text	4	228	70	12	1		Advanced Installer	VolumeList	
+OutOfDiskDlg	BannerLine	Line	0	44	372	0	1			OK	
+OutOfDiskDlg	VolumeList	VolumeCostList	20	100	330	120	393223		{120}{70}{70}{70}{70}	Title	
+OutOfRbDiskDlg	Description	Text	20	20	280	20	196611		L'espai de disc necessari per la instal·lació excedeix el disponible.	BannerLine	
+OutOfRbDiskDlg	Text	Text	20	53	330	40	3		Els volums marcats no tenen suficient espai de disc disponible per les característiques actualment sel·leccionades. Pot eliminar alguns fitxers dels volums marcats o triar instal·lar menys característiques als dispositius o sel·leccionar altres dispositius.	Description	
+OutOfRbDiskDlg	Title	Text	15	6	200	15	196611		[DlgTitleFont]S'ha acabat l'espai de disc	No	
+OutOfRbDiskDlg	BannerBitmap	Bitmap	0	0	370	44	1048577		[BannerBitmap]	BottomLine	
+OutOfRbDiskDlg	Yes	PushButton	240	243	56	17	3		[ButtonText_Yes]	BannerBitmap	
+OutOfRbDiskDlg	BottomLine	Line	5	234	368	0	1			Logo	
+OutOfRbDiskDlg	Logo	Text	4	228	70	12	1		Advanced Installer	Text2	
+OutOfRbDiskDlg	BannerLine	Line	0	44	372	0	1			VolumeList	
+OutOfRbDiskDlg	No	PushButton	304	243	56	17	3		[ButtonText_No]	Yes	
+OutOfRbDiskDlg	VolumeList	VolumeCostList	20	140	330	80	4587527		{120}{70}{70}{70}{70}	Title	
+OutOfRbDiskDlg	Text2	Text	20	94	330	40	3		Com a alternativa, pot triar desactivar la funcionalitat de l'instal·lador de tirar endarrera. Això permet a l'instal·lador restaurar l'estat original del seu ordinador si la instal·lació es interrompuda. Faci click en si si vol arriscar-se a desactivar la opció de tirar endarrera.	Text	
+PatchWelcomeDlg	Description	Text	135	86	220	60	196611		El [Wizard] instal·larà el Patch per [ProductName] en el seu ordinador. Faci click en el botó de següent o en el de cancel·la per sortir del Patch [Wizard].	BottomLine	
+PatchWelcomeDlg	Title	Text	135	20	220	60	196611		{\VerdanaBold13}Benvingut al [ProductName] Patch [Wizard]	Description	
+PatchWelcomeDlg	Cancel	PushButton	304	243	56	17	3		[ButtonText_Cancel]	Bitmap	
+PatchWelcomeDlg	Bitmap	Bitmap	0	0	370	234	1048577		[DialogBitmap]	Back	
+PatchWelcomeDlg	Next	PushButton	236	243	56	17	3		[ButtonText_Next]	Cancel	
+PatchWelcomeDlg	BottomLine	Line	0	234	372	0	1			Next	
+PatchWelcomeDlg	Back	PushButton	180	243	56	17	1		[ButtonText_Back]	Title	
+ResumeDlg	Description	Text	135	86	220	60	196611		El [Wizard] completarà la instal·lació de [ProductName] en el seu ordinado. Faci click en Instal·lar per continuar o en Cancel·lar per sortir del [Wizard].	BottomLine	
+ResumeDlg	Title	Text	135	20	220	60	196611		{\VerdanaBold13}S'està reprenent el [Wizard] de [ProductName]	Description	
+ResumeDlg	Cancel	PushButton	304	243	56	17	3		[ButtonText_Cancel]	Bitmap	
+ResumeDlg	Bitmap	Bitmap	0	0	370	234	1048577		[DialogBitmap]	Back	
+ResumeDlg	BottomLine	Line	0	234	372	0	1			Install	
+ResumeDlg	Back	PushButton	180	243	56	17	1		[ButtonText_Back]	Title	
+ResumeDlg	Install	PushButton	236	243	56	17	3		[ButtonText_Install]	Cancel	
+VerifyRemoveDlg	Description	Text	25	23	280	15	196611		Ha escollit eliminar el programa del seu ordinador.	BannerLine	
+VerifyRemoveDlg	Text	Text	25	70	320	60	3		Fagi clic en Eliminar per eliminar [ProductName] del seu ordinador. Si vol revisar o modificar els ajustaments de la seva instal·lació, faig clic en Enrera. Faig clic en Cancelar per sortir de l'assistent.	Description	
+VerifyRemoveDlg	Title	Text	15	6	200	15	196611		{\DlgFontBold8}Eliminar [ProductName]	Text	
+VerifyRemoveDlg	Remove	PushButton	236	243	56	17	3		[ButtonText_Remove]	Cancel	
+VerifyRemoveDlg	BannerBitmap	Bitmap	0	0	370	44	1048577		[BannerBitmap]	BottomLine	
+VerifyRemoveDlg	Cancel	PushButton	304	243	56	17	3		[ButtonText_Cancel]	BannerBitmap	
+VerifyRemoveDlg	BottomLine	Line	5	234	368	0	1			Logo	
+VerifyRemoveDlg	Logo	Text	4	228	70	12	1		Advance Installer	Title	
+VerifyRemoveDlg	Back	PushButton	180	243	56	17	3		[ButtonText_Back]	Remove	
+VerifyRemoveDlg	BannerLine	Line	0	44	372	0	1			Back	
+VerifyRepairDlg	Description	Text	25	23	280	15	196611		El [Wizard]está llest per a iniciar la reparació de [ProductName].	BannerLine	
+VerifyRepairDlg	Text	Text	25	70	320	60	3		Fagi clic en Reparar per reparar la instal·lació de [ProductName]. Si vol revisar o modificar els ajustaments de la seva instal·lació, faig clic en Enrera. Faig clic en Cancelar per sortir de l'assistent.	Description	
+VerifyRepairDlg	Title	Text	15	6	200	15	196611		{\DlgFontBold8}Reparar [ProductName]	Text	
+VerifyRepairDlg	BannerBitmap	Bitmap	0	0	370	44	1048577		[BannerBitmap]	BottomLine	
+VerifyRepairDlg	Cancel	PushButton	304	243	56	17	3		[ButtonText_Cancel]	BannerBitmap	
+VerifyRepairDlg	BottomLine	Line	5	234	368	0	1			Logo	
+VerifyRepairDlg	Logo	Text	4	228	70	12	1		Advanced Installer	Back	
+VerifyRepairDlg	Back	PushButton	180	243	56	17	3		[ButtonText_Back]	Title	
+VerifyRepairDlg	BannerLine	Line	0	44	372	0	1			Repair	
+VerifyRepairDlg	Repair	PushButton	236	243	56	17	3		[ButtonText_Repair]	Cancel	
+VerifyReadyDlg	Description	Text	25	23	304	20	196611		El [Wizard] está llest per iniciar la insal·lació [ProductName]	BannerLine	
+VerifyReadyDlg	Text	Text	25	70	320	40	196611		Fagi clic en Instal·lar per iniciar la instal·lació. Si vol revisar o modificar els ajustaments de la seva instal·lació, faig clic en Enrera. Faig clic en Cancelar per sortir de l'assistent.	Description	
+VerifyReadyDlg	Title	Text	15	6	304	15	196611		[DlgTitleFont]A punt per instal·lar	Install	
+VerifyReadyDlg	BannerBitmap	Bitmap	0	0	370	44	1048577		[BannerBitmap]	BottomLine	
+VerifyReadyDlg	Cancel	PushButton	304	243	56	17	3		[ButtonText_Cancel]	BannerBitmap	
+VerifyReadyDlg	BottomLine	Line	5	234	368	0	1			Logo	
+VerifyReadyDlg	Logo	Text	4	228	70	12	1		Advanced Installer	Back	
+VerifyReadyDlg	Back	PushButton	180	243	56	17	3		[ButtonText_Back]	Text	
+VerifyReadyDlg	BannerLine	Line	0	44	372	0	1			Title	
+VerifyReadyDlg	Install	PushButton	236	243	62	17	3		[ButtonText_Install]	Cancel	
+WelcomeDlg	Description	Text	135	86	220	60	196611		El [Wizard] instalará [ProductName] al seu ordinador. Fagi clic en [Text_Next] per continuar o en Cancelar per sortir del [Wizard]-	BottomLine	
+WelcomeDlg	Title	Text	135	20	220	60	196611		{\VerdanaBold13}Benvingut al [Wizard] de [ProductName]	Description	
+WelcomeDlg	Cancel	PushButton	304	243	56	17	3		[ButtonText_Cancel]	Bitmap	
+WelcomeDlg	Bitmap	Bitmap	0	0	370	234	1048577		[DialogBitmap]	Back	
+WelcomeDlg	Next	PushButton	236	243	56	17	3		[ButtonText_Next]	Cancel	
+WelcomeDlg	BottomLine	Line	0	234	372	0	1			Next	
+WelcomeDlg	Back	PushButton	180	243	56	17	1		[ButtonText_Back]	Title	
+WaitForCostingDlg	Text	Text	48	15	194	30	3		Esperi fins que l'instalador acabi de determinar els els seus requisits d'espai de disc.	Icon	
+WaitForCostingDlg	Icon	Icon	15	15	24	24	5242881		[ExclamationIcon]	Return	Icona d'Admiració|
+WaitForCostingDlg	Return	PushButton	102	57	56	17	3		[ButtonText_Return]	Text	

@@ -1,0 +1,31 @@
+Dialog	HCentering	VCentering	Width	Height	Attributes	Title	Control_First	Control_Default	Control_Cancel
+s72	i2	i2	i2	i2	I4	L128	s50	S50	S50
+Dialog	Dialog
+ErrorDlg	50	50	270	105	65539	Informació de l'instal·lador	ErrorText		
+ProgressDlg	50	50	370	270	1	[Setup] de [ProductName]	Cancel	Cancel	Cancel
+AdminWelcomeDlg	50	50	370	270	3	[Setup] de [ProductName]	Next	Next	Cancel
+ExitDialog	50	50	370	270	3	[Setup] de [ProductName]	Finish	Finish	Finish
+FatalError	50	50	370	270	3	[Setup] de [ProductName]	Finish	Finish	Finish
+PrepareDlg	50	50	370	270	1	[Setup] de [ProductName]	Cancel	Cancel	Cancel
+UserExit	50	50	370	270	3	[Setup] de [ProductName]	Finish	Finish	Finish
+CancelDlg	50	50	260	85	3	[Setup] de [ProductName]	No	No	No
+FolderDlg	50	50	370	270	39	[Setup] de [ProductName]	Next	Next	Cancel
+MaintenanceTypeDlg	50	50	370	270	3	[Setup] de [ProductName]	ChangeLabel	ChangeButton	Cancel
+MaintenanceWelcomeDlg	50	50	370	270	3	[Setup] de [ProductName]	Next	Next	Cancel
+BasicUIDlg	50	50	296	71	1	[ProductName] [Setup]	Next	Next	Cancel
+AdminBrowseDlg	50	50	370	270	3	[Setup] de [ProductName]	PathEdit	OK	Cancel
+AdminInstallPointDlg	50	50	370	270	3	[Setup] de [ProductName]	Text	Next	Cancel
+BrowseDlg	50	50	370	270	3	[Setup] de [ProductName]	PathEdit	OK	Cancel
+CustomizeDlg	50	50	370	270	35	[Setup] de [ProductName]	Tree	Next	Cancel
+DiskCostDlg	50	50	370	270	3	[Setup] de [ProductName]	OK	OK	OK
+FilesInUse	50	50	370	270	19	[Setup] de [ProductName]	Retry	Retry	Retry
+MsiRMFilesInUse	50	50	370	270	19	[Setup] de [ProductName]	OK	OK	Cancel
+OutOfDiskDlg	50	50	370	270	3	[Setup] de [ProductName]	OK	OK	OK
+OutOfRbDiskDlg	50	50	370	270	3	[Setup] de [ProductName]	No	No	No
+PatchWelcomeDlg	50	50	370	270	3	[Setup] de [ProductName]	Next	Next	Cancel
+ResumeDlg	50	50	370	270	3	[Setup] de [ProductName]	Install	Install	Cancel
+VerifyRemoveDlg	50	50	370	270	35	[Setup] de [ProductName]	Back	Back	Cancel
+VerifyRepairDlg	50	50	370	270	35	[Setup] de [ProductName]	Repair	Repair	Cancel
+VerifyReadyDlg	50	50	370	270	35	[Setup] de [ProductName]	Install	Install	Cancel
+WelcomeDlg	50	50	370	270	3	[Setup] de [ProductName]	Next	Next	Cancel
+WaitForCostingDlg	50	50	260	85	3	[Setup] de [ProductName]	Return	Return	Return

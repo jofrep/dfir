@@ -1,0 +1,131 @@
+Dialog_	Control_	Event	Argument	Condition	Ordering
+s72	s50	s50	s255	S0	I2
+ControlEvent	Dialog_	Control_	Event	Argument	Condition
+ErrorDlg	Y	EndDialog	ErrorYes	1	100
+ErrorDlg	N	EndDialog	ErrorNo	1	100
+ErrorDlg	A	EndDialog	ErrorAbort	1	100
+ErrorDlg	C	EndDialog	ErrorCancel	1	100
+ErrorDlg	I	EndDialog	ErrorIgnore	1	100
+ErrorDlg	O	EndDialog	ErrorOk	1	100
+ErrorDlg	R	EndDialog	ErrorRetry	1	100
+ProgressDlg	Cancel	SpawnDialog	CancelDlg	1	100
+AdminWelcomeDlg	Cancel	SpawnDialog	CancelDlg	1	100
+AdminWelcomeDlg	Next	NewDialog	AdminInstallPointDlg	1	300
+AdminWelcomeDlg	Next	[InstallMode]	Server Image	1	100
+ExitDialog	Cancel	EndDialog	Return	1	100
+ExitDialog	Finish	EndDialog	Return	1	300
+ExitDialog	Finish	DoAction	AI_LaunchApp	(RUNAPPLICATION=1) AND (AI_INSTALL OR AI_PATCH)	200
+ExitDialog	Finish	DoAction	AI_ViewReadme	(VIEWREADME=1) AND (AI_INSTALL OR AI_PATCH)	100
+FatalError	Cancel	EndDialog	Exit	1	100
+FatalError	Finish	EndDialog	Exit	1	100
+FatalError	Finish	DoAction	AI_SHOW_LOG	(MsiLogFileLocation AND AI_LOG_CHECKBOX)	101
+PrepareDlg	Cancel	SpawnDialog	CancelDlg	1	100
+UserExit	Cancel	EndDialog	Exit	1	100
+UserExit	Finish	EndDialog	Exit	1	100
+CancelDlg	Yes	EndDialog	Exit	1	100
+CancelDlg	No	EndDialog	Return	1	100
+FolderDlg	Cancel	SpawnDialog	CancelDlg	1	100
+FolderDlg	Next	NewDialog	VerifyReadyDlg	AI_INSTALL	201
+FolderDlg	Next	SetTargetPath	APPDIR	1	200
+FolderDlg	Browse	[_BrowseProperty]	APPDIR	1	100
+FolderDlg	Browse	SpawnDialog	BrowseDlg	1	200
+FolderDlg	Back	NewDialog	WelcomeDlg	AI_INSTALL	1
+MaintenanceTypeDlg	Cancel	SpawnDialog	CancelDlg	1	100
+MaintenanceTypeDlg	Back	NewDialog	MaintenanceWelcomeDlg	AI_MAINT	1
+MaintenanceTypeDlg	ChangeButton	NewDialog	CustomizeDlg	AI_MAINT	501
+MaintenanceTypeDlg	ChangeButton	[InstallMode]	Change	1	100
+MaintenanceTypeDlg	ChangeButton	[Progress1]	[CtrlEvtChanging]	1	200
+MaintenanceTypeDlg	ChangeButton	[Progress2]	[CtrlEvtchanges]	1	300
+MaintenanceTypeDlg	ChangeButton	[AI_INSTALL_MODE]	Change	1	400
+MaintenanceTypeDlg	ChangeButton	[AI_CommitButton]	ButtonText_Install	1	500
+MaintenanceTypeDlg	RepairButton	NewDialog	VerifyRepairDlg	AI_MAINT AND InstallMode="Repair"	601
+MaintenanceTypeDlg	RepairButton	[InstallMode]	Repair	1	100
+MaintenanceTypeDlg	RepairButton	[Progress1]	[CtrlEvtRepairing]	1	200
+MaintenanceTypeDlg	RepairButton	[Progress2]	[CtrlEvtrepairs]	1	300
+MaintenanceTypeDlg	RepairButton	[AI_INSTALL_MODE]	Repair	1	500
+MaintenanceTypeDlg	RepairButton	[AI_CommitButton]	ButtonText_Repair	1	600
+MaintenanceTypeDlg	RemoveButton	NewDialog	VerifyRemoveDlg	AI_MAINT AND InstallMode="Remove"	601
+MaintenanceTypeDlg	RemoveButton	[InstallMode]	Remove	1	100
+MaintenanceTypeDlg	RemoveButton	[Progress1]	[CtrlEvtRemoving]	1	200
+MaintenanceTypeDlg	RemoveButton	[Progress2]	[CtrlEvtremoves]	1	300
+MaintenanceTypeDlg	RemoveButton	[AI_INSTALL_MODE]	Remove	1	500
+MaintenanceTypeDlg	RemoveButton	[AI_CommitButton]	ButtonText_Remove	1	600
+MaintenanceWelcomeDlg	Cancel	SpawnDialog	CancelDlg	1	100
+MaintenanceWelcomeDlg	Next	NewDialog	MaintenanceTypeDlg	AI_MAINT	99
+MaintenanceWelcomeDlg	Next	SpawnWaitDialog	WaitForCostingDlg	CostingComplete = 1	100
+BasicUIDlg	Cancel	SpawnDialog	CancelDlg	1	100
+AdminBrowseDlg	OK	EndDialog	Return	1	200
+AdminBrowseDlg	OK	SetTargetPath	TARGETDIR	1	100
+AdminBrowseDlg	Up	DirectoryListUp	0	1	100
+AdminBrowseDlg	Cancel	Reset	0	1	100
+AdminBrowseDlg	Cancel	EndDialog	Return	1	200
+AdminBrowseDlg	NewFolder	DirectoryListNew	0	1	100
+AdminInstallPointDlg	Cancel	SpawnDialog	CancelDlg	1	100
+AdminInstallPointDlg	Next	NewDialog	VerifyReadyDlg	1	300
+AdminInstallPointDlg	Next	SetTargetPath	TARGETDIR	1	100
+AdminInstallPointDlg	Browse	SpawnDialog	AdminBrowseDlg	1	100
+AdminInstallPointDlg	Back	NewDialog	AdminWelcomeDlg	1	200
+BrowseDlg	OK	EndDialog	Return	1	200
+BrowseDlg	OK	SetTargetPath	[_BrowseProperty]	1	100
+BrowseDlg	Up	DirectoryListUp	0	1	100
+BrowseDlg	Cancel	Reset	0	1	100
+BrowseDlg	Cancel	EndDialog	Return	1	200
+BrowseDlg	NewFolder	DirectoryListNew	0	1	100
+CustomizeDlg	Cancel	SpawnDialog	CancelDlg	1	100
+CustomizeDlg	Next	NewDialog	VerifyReadyDlg	AI_MAINT	101
+CustomizeDlg	Next	DoAction	AI_InstallModeCheck	AI_MAINT	100
+CustomizeDlg	Browse	SelectionBrowse	BrowseDlg	1	100
+CustomizeDlg	Back	NewDialog	MaintenanceTypeDlg	AI_MAINT	1
+CustomizeDlg	Reset	Reset	0	1	100
+CustomizeDlg	DiskCost	SpawnDialog	DiskCostDlg	1	200
+DiskCostDlg	OK	EndDialog	Return	1	100
+FilesInUse	Retry	EndDialog	Retry	1	100
+FilesInUse	Ignore	EndDialog	Ignore	1	100
+FilesInUse	Exit	EndDialog	Exit	1	100
+MsiRMFilesInUse	OK	EndDialog	Return	1	200
+MsiRMFilesInUse	OK	RMShutdownAndRestart	0	AppsShutdownOption = "All"	100
+MsiRMFilesInUse	Cancel	EndDialog	Exit	1	100
+OutOfDiskDlg	OK	EndDialog	Return	1	100
+OutOfRbDiskDlg	Yes	EndDialog	Return	1	200
+OutOfRbDiskDlg	Yes	EnableRollback	False	1	100
+OutOfRbDiskDlg	No	EndDialog	Return	1	100
+PatchWelcomeDlg	Cancel	SpawnDialog	CancelDlg	AI_PATCH	100
+PatchWelcomeDlg	Next	NewDialog	VerifyReadyDlg	AI_PATCH	201
+PatchWelcomeDlg	Next	ReinstallMode	ecmus	AI_PATCH	100
+PatchWelcomeDlg	Next	Reinstall	All	AI_PATCH	200
+ResumeDlg	Cancel	SpawnDialog	CancelDlg	1	100
+ResumeDlg	Install	EndDialog	Return	AI_RESUME	299
+ResumeDlg	Install	SpawnDialog	OutOfDiskDlg	(OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST="F")	600
+ResumeDlg	Install	SpawnDialog	OutOfRbDiskDlg	OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST="P" OR NOT PROMPTROLLBACKCOST)	300
+ResumeDlg	Install	SpawnWaitDialog	WaitForCostingDlg	CostingComplete = 1	700
+ResumeDlg	Install	EnableRollback	False	OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST="D"	500
+VerifyRemoveDlg	Remove	Remove	ALL	OutOfDiskSpace <> 1	100
+VerifyRemoveDlg	Remove	EndDialog	Return	AI_MAINT AND InstallMode="Remove"	299
+VerifyRemoveDlg	Remove	SpawnDialog	OutOfDiskDlg	(OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST="F")	600
+VerifyRemoveDlg	Remove	SpawnDialog	OutOfRbDiskDlg	OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST="P" OR NOT PROMPTROLLBACKCOST)	300
+VerifyRemoveDlg	Remove	EnableRollback	False	OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST="D"	500
+VerifyRemoveDlg	Cancel	SpawnDialog	CancelDlg	1	100
+VerifyRemoveDlg	Back	NewDialog	MaintenanceTypeDlg	AI_MAINT AND InstallMode="Remove"	1
+VerifyRepairDlg	Cancel	SpawnDialog	CancelDlg	1	100
+VerifyRepairDlg	Back	NewDialog	MaintenanceTypeDlg	AI_MAINT AND InstallMode="Repair"	1
+VerifyRepairDlg	Repair	EndDialog	Return	AI_MAINT AND InstallMode="Repair"	399
+VerifyRepairDlg	Repair	SpawnDialog	OutOfDiskDlg	(OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST="F")	700
+VerifyRepairDlg	Repair	SpawnDialog	OutOfRbDiskDlg	OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST="P" OR NOT PROMPTROLLBACKCOST)	400
+VerifyRepairDlg	Repair	EnableRollback	False	OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST="D"	600
+VerifyRepairDlg	Repair	ReinstallMode	ecmus	OutOfDiskSpace <> 1	100
+VerifyRepairDlg	Repair	Reinstall	All	OutOfDiskSpace <> 1	200
+VerifyReadyDlg	Cancel	SpawnDialog	CancelDlg	1	100
+VerifyReadyDlg	Back	NewDialog	FolderDlg	AI_INSTALL	201
+VerifyReadyDlg	Back	NewDialog	AdminInstallPointDlg	AI_ADMIN AND InstallMode = "Server Image"	200
+VerifyReadyDlg	Back	NewDialog	CustomizeDlg	AI_MAINT	202
+VerifyReadyDlg	Back	NewDialog	PatchWelcomeDlg	AI_PATCH	203
+VerifyReadyDlg	Install	EndDialog	Return	AI_INSTALL	197
+VerifyReadyDlg	Install	EndDialog	Return	AI_MAINT	198
+VerifyReadyDlg	Install	EndDialog	Return	AI_PATCH	199
+VerifyReadyDlg	Install	EndDialog	Return	AI_ADMIN AND InstallMode = "Server Image"	150
+VerifyReadyDlg	Install	SpawnDialog	OutOfDiskDlg	(OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST="F")	500
+VerifyReadyDlg	Install	SpawnDialog	OutOfRbDiskDlg	OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST="P" OR NOT PROMPTROLLBACKCOST)	200
+VerifyReadyDlg	Install	EnableRollback	False	OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST="D"	400
+WelcomeDlg	Cancel	SpawnDialog	CancelDlg	1	100
+WelcomeDlg	Next	NewDialog	FolderDlg	AI_INSTALL	1
+WaitForCostingDlg	Return	EndDialog	Exit	1	100

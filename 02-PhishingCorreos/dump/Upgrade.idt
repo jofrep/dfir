@@ -1,0 +1,5 @@
+UpgradeCode	VersionMin	VersionMax	Language	Attributes	Remove	ActionProperty
+s38	S20	S20	S255	i4	S255	s72
+Upgrade	UpgradeCode	VersionMin	VersionMax	Language	Attributes
+{C8148A42-F92D-4E46-8779-77D6E5A99578}	32.19.13			2		AI_NEWERPRODUCTFOUND
+{C8148A42-F92D-4E46-8779-77D6E5A99578}	0.0.1	32.19.13		257		OLDPRODUCTS

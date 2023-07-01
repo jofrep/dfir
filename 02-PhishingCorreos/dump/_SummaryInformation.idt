@@ -1,0 +1,19 @@
+PropertyId	Value
+i2	l255
+_SummaryInformation	PropertyId
+1	1252
+2	Installation Database
+3	rerefencia-correo-PDF
+4	correosevarltda
+5	Installer, MSI, Database
+6	La base de dades del instal·lador conté la lògica i les dades necessàries per instal·lar rerefencia-correo-PDF.
+7	;1027
+8	
+9	{F07FC024-4F2E-4077-8910-84D99800BFB2}
+11	2009/12/11 12:47:44
+12	2009/12/11 12:47:44
+13	2020/09/18 16:06:51
+14	200
+15	10
+18	Advanced Installer 18.7 build 0a7fdead
+19	0

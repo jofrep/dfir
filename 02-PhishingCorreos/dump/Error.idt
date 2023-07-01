@@ -1,0 +1,677 @@
+Error	Message
+i2	S0
+Error	Error
+0	{{Error fatal: }}
+1	{{Error [1]. }}
+2	Avís [1].
+3	
+4	Informació [1].
+5	L'instal·lador ha trobat un error inesperat a l'instal·lar el paquet. Això pot indicar un problema amb aquest paquet. El codi d'error és [1]. {{Els arguments són: [2], [3], [4]}}
+6	
+7	{{Disc ple: }}
+8	Acció [Time]: [1]. [2]
+9	[ProductName]
+10	{[2]}{, [3]}{, [4]}
+11	Tipus de missatge: [1], argument: [2]
+12	=== Registre iniciat: [Date]  [Time] ===
+13	=== Registre aturat: [Date]  [Time] ===
+14	L'acció es va iniciar a les [Time]: [1].
+15	L'acció ha finalitzat a les [Time]: [1]. Valor retornat: [2].
+16	Temps restant: {[1] minuts }{[2] segons}
+17	Memòria insuficient. Tanqui altres aplicacions abans de tornar a intentar-ho.
+18	L'instal·lador no respon.
+19	L'instal·lador s'ha aturat abans d'hora.
+20	Esperi mentre Windows configura [ProductName]
+21	Recollint la informació necessària...
+22	Eliminant les versions anteriors d'aquesta aplicació...
+23	Preparant la eliminació de les versions anteriors d'aquesta aplicació...
+32	La instal·lació de {[ProductName] } ha finalitzat correctament.
+33	Ha fallat la isntal·lació de {[ProductName]}.
+1001	Error [1]. [2]
+1101	Error llegint l'arxiu: [2]. {{ Error del sistema [3].}} Verifiqui que l'arxiu existeix i que hi té accés.
+1301	No es pot crear l'arxiu '[2]'. Ja existeix un directori amb aquest nom. Cancel·li la instal·lació i provi d'instal·lar en una altra ubicació.
+1302	Introdueixi el disc: [2]
+1303	L'instal·lador no disposa de prous privilegis per accedir a aquest directori: [2]. La instal·lació no pot continuar. Inicïi sessió com a administrador o posi's en contacte amb l'administrador del seu sistema.
+1304	Error escrivint a l'arxiu: [2]. Verifiqui que disposa d'accés a aquest directori.
+1305	Error llegint l'arxiu [2]. {{ Error del sistema [3].}} Verifiqui que l'arxiu existeix i que hi té accés.
+1306	Una altra aplicació té accés exclusiu a l'arxiu '[2]'. Tanqui totes les altres aplicacions i fagi clic en Reintentar.
+1307	No hi ha prou espai de disc per instal·lar l'arxiu: [2]. Alliberi espai al disc i fagi clic en Reintentar, o bé cancel·li per sortir.
+1308	No s'ha pogut trobar l'arxiu d'origen: [2]. Verifiqui que l'arxiu existeix i que hi té accés.
+1309	Error llegint l'arxiu: [3]. {{ Error del sistema [2].}}  Verifiqui que l'arxiu existeix i que hi té accés.
+1310	Error escrivint a l'arxiu: [3]. {{ Error del sistema [2].}} Verifiqui que disposa d'accés a aquest directori.
+1311	No s'ha trobat l'arxiu d'origen{{(.CAB)}}: [2]. Verifiqui que l'arxiu existeix i que hi té accés.
+1312	No es pot crear el directori '[2]'.  Ja existeix un arxiu amb aquest nom. Canvïi el nom de l'arxiu o esborri'l y fagi clic en Reintentar, o bé cancel·li per sortir.
+1313	El volum [2] no está actualment disponible. Sel·leccioni un altre volum.
+1314	El camí d'accés especificat '[2]' no està disponible
+1315	No es pot escriure a la carpeta especificada: [2].
+1316	S'ha produït un error de xarxa quan s'intentava llegir l'arxiu: [2]
+1317	S'ha produït un error quan s'intentava crear el directori: [2]
+1318	S'ha produït un error de xarxa quan s'intentava crear el directori: [2]
+1319	S'ha produït un error de xarxa quan s'intentava obrir l'arxiu .CAB d'origen: [2]
+1320	El camí d'accés especificat és massa larg: [2]
+1321	L'instal·lador no té prous privilegis per a modificar l'arxiu [2].
+1322	Una part del camí d'accés a la carpeta '[2]' és invàlida perquè està buida o excedeix la longitud permesa pel sistema.
+1323	El camí d'accés a la carpeta '[2]' conté paraules invàlides per a camins d'accés a carpetes.
+1324	El camí d'accés a la carpeta '[2]' conté un caràcter invàlid.
+1325	'[2]' no és un nom curt d'arxiu vàlid.
+1326	Error a l'obtenir la seguretat de l'arxiu: [3]. GetLastError: [2].
+1327	Unitat invàlida: [2]
+1328	Error aplicant la revisió a l'arxiu [2]. Probablement l'arxiu ja ha estat actualitzat per altres mitjans i, per tant, no pot ser modificat per aquesta revisió. Per a obtenir més informació consulti amb el proveïdor de la revisió.  {{Error de sistema [3]}} 
+1329	No es pot instal·lar un arxiu necessari perquè l'arxiu .CAB [2] no està signat digitalment. Això pot indicar que l'arxiu .CAB és corrupte.
+1330	No es pot instal·lar un arxiu necessari perquè el .CAB té una signatura digital invàlida. Això pot indicar que l'arxiu .CAB és corrupte.{{ Error [3] retornat per WinVerifyTrust.}}
+1331	No es pot copiar l'arxiu [2] correctament: error de CRC.
+1332	No es pot moure l'arxiu [2] correctament: error de CRC.
+1333	No es pot revisar l'arxiu [2] correctament: error de CRC.
+1334	No es pot instal·lar l'arxiu "[2]" perquè no ha estat possible trobar l'arxiu dins el .CAB "[3]". Això pot indicar un error de xarxa, un error llegint des del CD-ROM, o un problema amb aquest paquet.
+1335	L'arxiu .CAB "[2]" que cal per a aquesta instal·lació és corrupte o no es pot utilitzar. Això pot indicar un error de xarxa, un error llegint des del CD-ROM, o un problema amb aquest paquet.
+1336	Error creant un arxiu temporal que és necessari per a completar aquesta instal·lació.{{  Carpeta: [3]. Codi d'error del sistema: [2]}}
+1401	No es pot crear la clau [2]. {{ Error de sistema [3].}} Verifiqui que té prous drets d'accés a aquesta clau, o posi's en contacte amb el personal de suport tècnic.
+1402	No es pot obrir la clau [2]. {{ Error de sistema [3].}} Verifiqui que té prous drets d'accés a aquesta clau, o posi's en contacte amb el personal de suport tècnic.
+1403	No es pot eliminar el valor [2] de la clau [3]. {{ Error de sistema [4].}} Verifiqui que té prous drets d'accés a aquesta clau, o posi's en contacte amb el personal de suport tècnic.
+1404	No es pot eliminar la clau [2]. {{Error de sistema [3].}} Verifiqui que té prous drets d'accés a aquesta clau, o posi's en contacte amb el personal de suport tècnic.
+1405	No es pot llegir el valor [2] de la clau [3]. {{ Error de sistema [4].}} Verifiqui que té prous drets d'accés a aquesta clau, o posi's en contacte amb el personal de suport tècnic.
+1406	NO es pot escriure el valor [2] de la clau [3]. {{ Error de sistema [4].}} Verifiqui que té prous drets d'accés a aquesta clau, o posi's en contacte amb el personal de suport tècnic.
+1407	No es poden obtenir els noms dels valors per a la clau [2]. {{ Error de sistema [3]. }} Verifiqui que té prous drets d'accés a aquesta clau, o posi's en contacte amb el personal de suport tècnic.
+1408	No es poden obtenir els noms de les subclaus per a la clau [2]. {{ Error de sistema [3].}} Verifiqui que té prous drets d'accés a aquesta clau, o posi's en contacte amb el personal de suport tècnic.
+1409	No es pot llegir la informació de seguretat per a la clau [2]. {{ Error de sistema [3].}} Verifiqui que té prous drets d'accés a aquesta clau, o posi's en contacte amb el personal de suport tècnic.
+1410	No es augmentar l'espai disponible al registre.  Són necessairs [2] KB d'espai lliure al registre per a instal·lar aquesta aplicació.
+1500	Hi ha una altra instal·lació en curs. Cal que finalitzi aquella instal·lació abans de continuar amb aquesta.
+1501	Error accedint a dades protegides. Asseguri's que Windows Installer està configurat correctament y torni a executar la instal·lació.
+1502	L'usuari '[2]' ha iniciat prèviament una instal·lació del producte '[3]'. Aquest usuari haurà d'executar la instal·lació un altre cop abans d'usar el producte. La instal·lació actual continuarà.
+1503	L'usuari '[2]' ja ha iniciat prèviament una instal·lació del producto '[3]'. Aquest usuari haurà de tornar a executar la instal·lació abans de tornar de poder utilitzar-lo. 
+1601	Espai de disc insuficient -- Volum: '[2]'; espai necessari: [3] KB; espai disponible: [4] KB. Alliberi espai al disc i torni-ho a intentar.
+1602	Segur que desitja cancelar la operació?
+1603	L'arxiu [2][3] està en ús{ pel procés següent: Nom: [4], Id. [5], Títol de finestra: '[6]'}.  Close that application and retry.
+1604	El producte '[2]' ja està instal·lat, fet que impedeix que d'instal·li aquest producte perquè ambdós productes són incompatibles.
+1605	No hi ha prou espai lliure de disc al volum "[2]" per a continuar la instal·lació amb la recuperació habilitada. Calen [3] KB, però només [4] KB estan disponibles. Fagi clic en Ignorar per a continuar la instal·lació sense guardar la informació de recuperaciño, faig clic en Reintentar per a verificar un altre cop si hi ha espai de disc disponible o fagi clic en Cancelar per a sortir de la instal·lació.
+1606	No es pot obtenir accés a la ubicació de xarxa [2].
+1607	Cal tancar les següents aplicacions abans de continuar amb la instal·lació:
+1608	No s'ha trobat cap producte compatible instal·lat en el seu equip per a instal·lar aquest producte.
+1609	Error aplicant la configuració de seguretat. [2] no és un usuari o grup vàlid. Això podria ser un problema amb el paquet o un problema al connectar amb el controlador de domini de la xarxa. Verifiqui la seva connexió de xarxa i fagi clic en Reintentar, o en Cancelar per a finalitzar la instal·lació. {{No s'ha pogut trobar l'SID d'usuario, error de sistema [3]}}
+1701	La clau [2] no és vàlida. Verifiqui que ha escrit la clau correcta.
+1702	L'instal·lador ha de reiniciar el sistema abans de continuar amb la configuració de [2]. Fagi clic en Si per a reiniciar l'equip ara o en No si té previst arrencar de nou manualment més tard.
+1703	Cal reiniciar el sistema per tal que els canvis de configuració realitzats a [2] tinguin efecte. Fagi clic en Si per a reiniciar l'equip ara o en No si té previst arrencar de nou manualment més tard.
+1704	Actualment hi ha una instal·lació de [2] suspesa. Cal desfer els canvis realitzats per aquesta instal·lació per a poder continuar. Desitja desfer aquests canvis?
+1705	Hi ha una instal·lació anterior en curs d'aquest producte. Cal desfer els canvis realitzats per aquesta instal·lació per a poder continuar. Desitja desfer aquests canvis?
+1706	No s'ha trobat un paquet de la instal·lació del producte [2]. Torni a intentar la instal·lació utilitzant una còpia vàlida del paquet d'instal·lació '[3]'.
+1707	La instal·lació ha finalitzat correctament.
+1708	Error en la instal·lació.
+1709	Producte: [2] -- [3]
+1710	Pot restaurar l'equip al seu estat anterior o continuar amb la instal·lació més tard. Desitja restaurar l'equip?
+1711	S'ha produït un error mentre s'escrivia la informació d'instal·lació al disc. Verifiqui que hi ha prou espai disponible al disc i fagi clic en Reintentar, o bé Cancelar per a finalitzar la instal·lació.
+1712	Un o més arxius necessaris per a restaurar el seu equip a l'estat previ no s'han pogut trobar. La restauració no es podrà realitzar.
+1713	[2] no pot instal·lar els productes necessaris. Posi's en contacte amb el seu grup de suport tècnic.   {{Error de sistema [3].}}
+1714	No es pot eliminar la versió anterior de [2]. Posi's en contacte amb el seu grup de suport tècnic.   {{Error de sistema [3].}}
+1715	Instal·lat [2]
+1716	Configurat [2]
+1717	Eliminat [2]
+1718	L'arxiu [2] ha estat rebutjat per la directiva de signatura digital.
+1719	No es pot tenir accés al servei Windows Installer. Això pot passar si esteu executant Windows en Mode a prova d'errors, o si Windows Installer no està correctament instal·lat. Posi's en contacte amb el personal de suport tècnic per a rebre assistència.
+1720	S'ha trobat un problema amb aquest paquet de Windows Installer. Hi ha una seqüència d'ordres que cal per aquesta instal·lació que no es pot executar.  Posi's en contacte amb el personal de suport tècnic o amb el proveïdor del paquet.  {{Acció personalitzada [2] error de seqüència d'ordres [3], [4]: [5] Línia [6], Columna [7], [8] }}
+1721	S'ha trobat un problema amb aquest paquet de Windows Installer. Hi ha un programa que és necessari per aquesta instal·lació que no es pot executar. Posi's en contacte amb el personal de suport tècnic o amb el proveïdor del paquet.  {{Action [2], entry: [3], library: [4] }}
+1722	S'ha trobat un problema amb aquest paquet de Windows Installer. Hi ha un programa que s'executa com a part de la instal·lació que no ha finalitzat com s'esperava. Posi's en contacte amb el personal de suport tècnic o amb el proveïdor del paquet.  {{Action [2], entry: [3], library: [4] }}
+1723	S'ha trobat un problema amb aquest paquet de Windows Installer. Hi ha una DLL que és necessària per a completar la instal·lació. Posi's en contacte amb el personal de suport tècnic o amb el proveïdor del paquet.  {{Action [2], entry: [3], library: [4] }}
+1724	La eliminació s'ha completat satisfactòriament.
+1725	Error en la eliminació.
+1726	L'anunci s'ha completat satisfactòriament.
+1727	Error en l'anunci.
+1728	La configuració s'ha completat satisfactòriament.
+1729	Error en la configuració.
+1730	Cal ésser un Administrador per a eliminar aquesta aplicació. Per a eliminar-la, pot iniciar sessió com a Administrador, o pot posar-se en contacte amb el grup de suport tècnic per a obtenir assistència.
+1801	El camí d'accés [2] no és vàlid. Especifiqui un camí d'accés vàlid.
+1802	Memòria insuficient. Tanqui les altres aplicacions abans de tornar a intentar-ho.
+1803	No hi ha cap disc a la unidad [2]. Insereixi'n un i fagi clic en Reintentar, o bé fagi clic en Cancelar per a tornar al volum prèviament seleccionat.
+1804	No hi ha cap disc a la unidad [2]. Insereixi'n un i fagi clic en Reintentar, o bé fagi clic en Cancelar per a tornar al cuadre de diàleg de recerca i seleccionar un volum diferent.
+1805	La carpeta [2] no existeix. Escrigui un camí d'accés cap a una carpeta existent.
+1806	No disposa de prous privilegis per a llegir aquesta carpeta.
+1807	No es pot determinar una carpeta de destí vàlida per a la instal·lació.
+1901	Error a l'intentar llegir la base de dades de la instal·lació d'origen: [2].
+1902	Programant la operació de reinici: canviant el nom l'arxiu de [2] a [3]. Per a completar la operació cal reiniciar l'equip.
+1903	Programant la operació de reinici: eliminant l'arxiu [2]. Per a completar la operació cal reiniciar l'equip.
+1904	Error al registrar el mòdul [2]. HRESULT [3].  Posi's en contacte amb el personal de suport tècnic.
+1905	Error a l'eliminar el mòdul [2] del registre. HRESULT [3]. Posi's en contacte amb el personal de suport tècnic.
+1906	Error a l'emmagatzemar el paquet [2] en la memòria caché. Error [3]. Posi's en contacte amb el personal de suport tècnic.
+1907	No es pot enregistrar la font [2]. Verifiqui que disposa de prous permisos per a instal·lar fonts i que el sistema admet aquesta font.
+1908	No es pot eliminar la font [2] del registre. Verifiqui que disposa de prous permisos per a eliminar fonts.
+1909	No es pot crear l'accés directe [2]. Verifiqui que la carpeta de destí existeix i que hi té accés.
+1910	No es pot crear l'accés directe [2]. Verifiqui que l'arxiu de l'accés directe existeix i que hi té accés.
+1911	No es pot registrar la llibreria de tipus per a l'arxiu [2]. Posi's en contacte amb el personal de suport tècnic.
+1912	No es pot eliminar del registre la llibreria de tipus per a l'arxiu [2]. Posi's en contacte amb el personal de suport tècnic.
+1913	No es pot actualitzar l'arxiu .ini [2][3]. Verifiqui que l'arxiu existeix y que hi té accés.
+1914	No es pot programar que l'arxiu [2] substitueixo al [3] quan es reinicïi el sistema. Verifiqui que disposa de permisos d'escriptura per a l'arxiu [3].
+1915	Error a l'eliminar l'administrador de controladors ODBC; error ODBC [2]: [3]. Posi's en contacte amb el personal de suport tècnic.
+1916	Error a l'instal·lar l'administrador de controladors ODBC; error ODBC [2]: [3]. Posi's en contacte amb el personal de suport tècnic.
+1917	Error a l'eliminar el controlar ODBC [4]. Error ODBC [2]: [3]. Verifiqui que disposa de prous privilegis per a eliminar controladors ODBC.
+1918	Error a l'instal·lar el controlador ODBC [4][5]; Error ODBC [2]: [3]. Verifiqui que l'arxiu [4][6] existeix i que hi té accés.
+1919	Error al configurar l'origen de dades ODBC [4][5]; Error ODBC [2]: [3]. Verifiqui que l'arxiu [4][6] existeix i que hi té accés.
+1920	Error a l'iniciar el servei '[2]' ([3]). Verifiqui que disposa de prous privilegis per a iniciar serveis de sistema.
+1921	No es pot aturar el servei '[2]' ([3]). Verifiqui que disposa de prous privilegis per a aturar serveis de sistema.
+1922	No es pot eliminar el servei '[2]' ([3]). Verifiqui que té prous privilegis per a eliminar serveis de sistema.
+1923	No es pot instal·lar el servei '[2]' ([3]). Verifiqui que disposa de prous privilegis per a instal·lar serveis de sistema.
+1924	No es pot actualitzar la variable d'entorn  '[2]'. Verifiqui que disposa de prous privilegis per a modificar varialbes d'entorn.
+1925	No té prous privilegis per a completar aquesta instal·lació per a tots els usuaris de l'equip. Inicïi la sessió com a administrador i torni a realitzar la instal·lació.
+1926	No és possible establir la seguretat per l'arxiu '[3]'. Error: [2]. Verifiqui que disposa de prous privilegis per a modificar els permisos de seguretat d'aquest arxiu.
+1927	Component Services (COM+ 1.0) no estan instal·lats en aquest sistema.  Per tal de realitzar aquesta instal·lació, cal que Components Services estiguin instal·lats. Components Services estan disponibles en Windows 2000.
+1928	Error al registrar l'aplicació COM+. Posi's en contacte amb el personal de suport per obtenir més informació.
+1929	Error a l'eliminar l'aplicació COM+ del registre. Posi's en contacte amb el personal de suport per obtenir més informació.
+1930	No es pot canviar la descripció del servei '[2]' ([3]).
+1931	El servei de Windows Installer no pot actualitzar l'arxiu de sistema [2] perquè està protegit per Windows. És possible que calgui actualitzar el seu sistema operatiu per tal que auquest programa funcioni correctament. {{Versió del paquet: [3], Versió protegida del SO: [4]}}
+1932	El servei de Windows Installer no pot actualitzar l'arxiu protegit de Windows [2]. {{Versió del paquet: [3], Versió protegida del SO: [4], Error SFP: [5]}}
+1933	El servei de Windows Installer no pot actualitzar un o més arxius protegits de Windows. {{SFP Error: [2].  Llista d'arxius protegits:\r\n[3]}}
+1934	Les instal·lacions de l'usuario estan deshabilitades per una directiva de l'equip.
+1935	Error durant la instal·lació de l'ensamblat [2]. HRESULT: [3]. {{interfície de l'ensamblat: [4], funció: [5], nombre de l'ensamblat: [6]}}
+1936	An error occurred during the installation of assembly '[6]'. The assembly is not strongly named or is not signed with the minimal key length. HRESULT: [3]. {{assembly interface: [4], function: [5], component: [2]}}
+1937	An error occurred during the installation of assembly '[6]'. The signature or catalog could not be verified or is not valid. HRESULT: [3]. {{assembly interface: [4], function: [5], component: [2]}}
+1938	An error occurred during the installation of assembly '[6]'. One or more modules of the assembly could not be found. HRESULT: [3]. {{assembly interface: [4], function: [5], component: [2]}}
+1939	Service '[2]' ([3]) could not be configured. This could be a problem with the package or your permissions. Verify that you have sufficient privileges to configure system services.
+1940	Service '[2]' ([3]) could not be configured. Configuring services is supported only on Windows Vista/Server 2008 and above.
+1941	Both LockPermissions and MsiLockPermissionsEx tables were found in the package. Only one of them should be present. This is a problem with the package.
+1942	Multiple conditions ('[2]' and '[3]')have resolved to true while installing Object [4] (from table [5]). This may be a problem with the package.
+1943	SDDL string '[2]' for object [3](in table [4]) could not be resolved into a valid Security Descriptor.
+1944	Could not set security for service '[3]'. Error: [2]. Verify that you have sufficient privileges to modify the security permissions for this service.
+1945	You do not have sufficient privileges to complete the re-advertisement of this product. Re-advertisement requires initiation by a local system account calling the MsiAdvertiseScript API
+1946	Property '[2]' for shortcut '[3]' could not be set.{{ HRESULT [4].}}
+2101	Shortcuts not supported by the operating system.
+2102	Invalid .INI action: [2]
+2103	Could not resolve path for shell folder [2].
+2104	Writing .INI file: [3]: System error: [2].
+2105	Shortcut Creation [3] Failed. System error: [2].
+2106	Shortcut Deletion [3] Failed. System error: [2].
+2107	Error [3] registering type library [2].
+2108	Error [3] unregistering type library [2].
+2109	Section missing for .INI action.
+2110	Key missing for .INI action.
+2111	Detection of running applications failed, could not get performance data. Registered operation returned : [2].
+2112	Detection of running applications failed, could not get performance index. Registered operation returned : [2].
+2113	Detection of running applications failed.
+2200	Database: [2]. Database object creation failed, mode = [3].
+2201	Database: [2]. Initialization failed, out of memory.
+2202	Database: [2]. Data access failed, out of memory.
+2203	Database: [2]. Cannot open database file. System error [3].
+2204	Database: [2]. Table already exists: [3].
+2205	Database: [2]. Table does not exist: [3].
+2206	Database: [2]. Table could not be dropped: [3].
+2207	Database: [2]. Intent violation.
+2208	Database: [2]. Insufficient parameters for Execute.
+2209	Database: [2]. Cursor in invalid state.
+2210	Database: [2]. Invalid update data type in column [3].
+2211	Database: [2]. Could not create database table [3].
+2212	Database: [2]. Database not in writable state.
+2213	Database: [2]. Error saving database tables.
+2214	Database: [2]. Error writing export file: [3].
+2215	Database: [2]. Cannot open import file: [3].
+2216	Database: [2]. Import file format error: [3], Line [4].
+2217	Database: [2]. Wrong state to CreateOutputDatabase [3].
+2218	Database: [2]. Table name not supplied.
+2219	Database: [2]. Invalid Installer database format.
+2220	Database: [2]. Invalid row/field data.
+2221	Database: [2]. Code page conflict in import file: [3].
+2222	Database: [2]. Transform or merge code page [3] differs from database code page [4].
+2223	Database: [2]. Databases are the same. No transform generated.
+2224	Database: [2]. GenerateTransform: Database corrupt. Table: [3].
+2225	Database: [2]. Transform: Cannot transform a temporary table. Table: [3].
+2226	Database: [2]. Transform failed.
+2227	Database: [2]. Invalid identifier '[3]' in SQL query: [4].
+2228	Database: [2]. Unknown table '[3]' in SQL query: [4].
+2229	Database: [2]. Could not load table '[3]' in SQL query: [4].
+2230	Database: [2]. Repeated table '[3]' in SQL query: [4].
+2231	Database: [2]. Missing ')' in SQL query: [3].
+2232	Database: [2]. Unexpected token '[3]' in SQL query: [4].
+2233	Database: [2]. No columns in SELECT clause in SQL query: [3].
+2234	Database: [2]. No columns in ORDER BY clause in SQL query: [3].
+2235	Database: [2]. Column '[3]' not present or ambiguous in SQL query: [4].
+2236	Database: [2]. Invalid operator '[3]' in SQL query: [4].
+2237	Database: [2]. Invalid or missing query string: [3].
+2238	Database: [2]. Missing FROM clause in SQL query: [3].
+2239	Database: [2]. Insufficient values in INSERT SQL statement.
+2240	Database: [2]. Missing update columns in UPDATE SQL statement.
+2241	Database: [2]. Missing insert columns in INSERT SQL statement.
+2242	Database: [2]. Column '[3]' repeated.
+2243	Database: [2]. No primary columns defined for table creation.
+2244	Database: [2]. Invalid type specifier '[3]' in SQL query [4].
+2245	IStorage::Stat failed with error [3].
+2246	Database: [2]. Invalid Installer transform format.
+2247	Database: [2] Transform stream read/write failure.
+2248	Database: [2] GenerateTransform/Merge: Column type in base table does not match reference table. Table: [3] Col #: [4].
+2249	Database: [2] GenerateTransform: More columns in base table than in reference table. Table: [3].
+2250	Database: [2] Transform: Cannot add existing row. Table: [3].
+2251	Database: [2] Transform: Cannot delete row that does not exist. Table: [3].
+2252	Database: [2] Transform: Cannot add existing table. Table: [3].
+2253	Database: [2] Transform: Cannot delete table that does not exist. Table: [3].
+2254	Database: [2] Transform: Cannot update row that does not exist. Table: [3].
+2255	Database: [2] Transform: Column with this name already exists. Table: [3] Col: [4].
+2256	Database: [2] GenerateTransform/Merge: Number of primary keys in base table does not match reference table. Table: [3].
+2257	Database: [2]. Intent to modify read only table: [3].
+2258	Database: [2]. Type mismatch in parameter: [3].
+2259	Database: [2] Table(s) Update failed
+2260	Storage CopyTo failed. System error: [3].
+2261	Could not remove stream [2]. System error: [3].
+2262	Stream does not exist: [2]. System error: [3].
+2263	Could not open stream [2]. System error: [3].
+2264	Could not remove stream [2]. System error: [3].
+2265	Could not commit storage. System error: [3].
+2266	Could not rollback storage. System error: [3].
+2267	Could not delete storage [2]. System error: [3].
+2268	Database: [2]. Merge: There were merge conflicts reported in [3] tables.
+2269	Database: [2]. Merge: The column count differed in the '[3]' table of the two databases.
+2270	Database: [2]. GenerateTransform/Merge: Column name in base table does not match reference table. Table: [3] Col #: [4].
+2271	SummaryInformation write for transform failed.
+2272	Database: [2]. MergeDatabase will not write any changes because the database is open read-only.
+2273	Database: [2]. MergeDatabase: A reference to the base database was passed as the reference database.
+2274	Database: [2]. MergeDatabase: Unable to write errors to Error table. Could be due to a non-nullable column in a predefined Error table.
+2275	Database: [2]. Specified Modify [3] operation invalid for table joins.
+2276	Database: [2]. Code page [3] not supported by the system.
+2277	Database: [2]. Failed to save table [3].
+2278	Database: [2]. Exceeded number of expressions limit of 32 in WHERE clause of SQL query: [3].
+2279	Database: [2] Transform: Too many columns in base table [3].
+2280	Database: [2]. Could not create column [3] for table [4].
+2281	Could not rename stream [2]. System error: [3].
+2282	Stream name invalid [2].
+2302	Patch notify: [2] bytes patched to far.
+2303	Error getting volume info. GetLastError: [2].
+2304	Error getting disk free space. GetLastError: [2]. Volume: [3].
+2305	Error waiting for patch thread. GetLastError: [2].
+2306	Could not create thread for patch application. GetLastError: [2].
+2307	Source file key name is null.
+2308	Destination file name is null.
+2309	Attempting to patch file [2] when patch already in progress.
+2310	Attempting to continue patch when no patch is in progress.
+2315	Missing path separator: [2].
+2318	File does not exist: [2].
+2319	Error setting file attribute: [3] GetLastError: [2].
+2320	File not writable: [2].
+2321	Error creating file: [2].
+2322	User canceled.
+2323	Invalid file attribute.
+2324	Could not open file: [3] GetLastError: [2].
+2325	Could not get file time for file: [3] GetLastError: [2].
+2326	Error in FileToDosDateTime.
+2327	Could not remove directory: [3] GetLastError: [2].
+2328	Error getting file version info for file: [2].
+2329	Error deleting file: [3]. GetLastError: [2].
+2330	Error getting file attributes: [3]. GetLastError: [2].
+2331	Error loading library [2] or finding entry point [3].
+2332	Error getting file attributes. GetLastError: [2].
+2333	Error setting file attributes. GetLastError: [2].
+2334	Error converting file time to local time for file: [3]. GetLastError: [2].
+2335	Path: [2] is not a parent of [3].
+2336	Error creating temp file on path: [3]. GetLastError: [2].
+2337	Could not close file: [3] GetLastError: [2].
+2338	Could not update resource for file: [3] GetLastError: [2].
+2339	Could not set file time for file: [3] GetLastError: [2].
+2340	Could not update resource for file: [3], Missing resource.
+2341	Could not update resource for file: [3], Resource too large.
+2342	Could not update resource for file: [3] GetLastError: [2].
+2343	Specified path is empty.
+2344	Could not find required file IMAGEHLP.DLL to validate file:[2].
+2345	[2]: File does not contain a valid checksum value.
+2347	User ignore.
+2348	Error attempting to read from cabinet stream.
+2349	Copy resumed with different info.
+2350	FDI server error
+2351	File key '[2]' not found in cabinet '[3]'. The installation cannot continue.
+2352	Could not initialize cabinet file server. The required file 'CABINET.DLL' may be missing.
+2353	Not a cabinet.
+2354	Cannot handle cabinet.
+2355	Corrupt cabinet.
+2356	Could not locate cabinet in stream: [2].
+2357	Cannot set attributes.
+2358	Error determining whether file is in-use: [3]. GetLastError: [2].
+2359	Unable to create the target file - file may be in use.
+2360	Progress tick.
+2361	Need next cabinet.
+2362	Folder not found: [2].
+2363	Could not enumerate subfolders for folder: [2].
+2364	Bad enumeration constant in CreateCopier call.
+2365	Could not BindImage EXE file [2].
+2366	User failure.
+2367	User abort.
+2368	Failed to get network resource information. Error [2], network path [3]. Extended error: network provider [5], error code [4], error description [6].
+2370	Invalid CRC checksum value for [2] file.{ Its header says [3] for checksum, its computed value is [4].}
+2371	Could not apply patch to file [2]. GetLastError: [3].
+2372	Patch file [2] is corrupt or of an invalid format. Attempting to patch file [3]. GetLastError: [4].
+2373	File [2] is not a valid patch file.
+2374	File [2] is not a valid destination file for patch file [3].
+2375	Unknown patching error: [2].
+2376	Cabinet not found.
+2379	Error opening file for read: [3] GetLastError: [2].
+2380	Error opening file for write: [3]. GetLastError: [2].
+2381	Directory does not exist: [2].
+2382	Drive not ready: [2].
+2401	64-bit registry operation attempted on 32-bit operating system for key [2].
+2402	Out of memory.
+2501	Could not create rollback script enumerator.
+2502	Called InstallFinalize when no install in progress.
+2503	Called RunScript when not marked in progress.
+2601	Invalid value for property [2]: '[3]'
+2602	The [2] table entry '[3]' has no associated entry in the Media table.
+2603	Duplicate table name [2].
+2604	[2] Property undefined.
+2605	Could not find server [2] in [3] or [4].
+2606	Value of property [2] is not a valid full path: '[3]'.
+2607	Media table not found or empty (required for installation of files).
+2608	Could not create security descriptor for object. Error: '[2]'.
+2609	Attempt to migrate product settings before initialization.
+2611	The file [2] is marked as compressed, but the associated media entry does not specify a cabinet.
+2612	Stream not found in '[2]' column. Primary key: '[3]'.
+2613	RemoveExistingProducts action sequenced incorrectly.
+2614	Could not access IStorage object from installation package.
+2615	Skipped unregistration of Module [2] due to source resolution failure.
+2616	Companion file [2] parent missing.
+2617	Shared component [2] not found in Component table.
+2618	Isolated application component [2] not found in Component table.
+2619	Isolated components [2], [3] not part of same feature.
+2620	Key file of isolated application component [2] not in File table.
+2621	Resource DLL or Resource ID information for shortcut [2] set incorrectly. 
+2701	The depth of a feature exceeds the acceptable tree depth of [2] levels.
+2702	A Feature table record ([2]) references a non-existent parent in the Attributes field.
+2703	Property name for root source path not defined: [2]
+2704	Root directory property undefined: [2]
+2705	Invalid table: [2]; Could not be linked as tree.
+2706	Source paths not created. No path exists for entry [2] in Directory table.
+2707	Target paths not created. No path exists for entry [2] in Directory table.
+2708	No entries found in the file table.
+2709	The specified Component name ('[2]') not found in Component table.
+2710	The requested 'Select' state is illegal for this Component.
+2711	The specified Feature name ('[2]') not found in Feature table.
+2712	Invalid return from modeless dialog: [3], in action [2].
+2713	Null value in a non-nullable column ('[2]' in '[3]' column of the '[4]' table.
+2714	Invalid value for default folder name: [2].
+2715	The specified File key ('[2]') not found in the File table.
+2716	Could not create a random subcomponent name for component '[2]'.
+2717	Bad action condition or error calling custom action '[2]'.
+2718	Missing package name for product code '[2]'.
+2719	Neither UNC nor drive letter path found in source '[2]'.
+2720	Error opening source list key. Error: '[2]'
+2721	Custom action [2] not found in Binary table stream.
+2722	Custom action [2] not found in File table.
+2723	Custom action [2] specifies unsupported type.
+2724	The volume label '[2]' on the media you're running from does not match the label '[3]' given in the Media table. This is allowed only if you have only 1 entry in your Media table.
+2725	Invalid database tables
+2726	Action not found: [2].
+2727	The directory entry '[2]' does not exist in the Directory table.
+2728	Table definition error: [2]
+2729	Install engine not initialized.
+2730	Bad value in database. Table: '[2]'; Primary key: '[3]'; Column: '[4]'
+2731	Selection Manager not initialized.
+2732	Directory Manager not initialized.
+2733	Bad foreign key ('[2]') in '[3]' column of the '[4]' table.
+2734	Invalid reinstall mode character.
+2735	Custom action '[2]' has caused an unhandled exception and has been stopped. This may be the result of an internal error in the custom action, such as an access violation.
+2736	Generation of custom action temp file failed: [2].
+2737	Could not access custom action [2], entry [3], library [4]
+2738	Could not access VBScript run time for custom action [2].
+2739	Could not access JScript run time for custom action [2].
+2740	Custom action [2] script error [3], [4]: [5] Line [6], Column [7], [8].
+2741	Configuration information for product [2] is corrupt. Invalid info: [2].
+2742	Marshaling to Server failed: [2].
+2743	Could not execute custom action [2], location: [3], command: [4].
+2744	EXE failed called by custom action [2], location: [3], command: [4].
+2745	Transform [2] invalid for package [3]. Expected language [4], found language [5].
+2746	Transform [2] invalid for package [3]. Expected product [4], found product [5].
+2747	Transform [2] invalid for package [3]. Expected product version < [4], found product version [5].
+2748	Transform [2] invalid for package [3]. Expected product version < = [4], found product version [5].
+2749	Transform [2] invalid for package [3]. Expected product version == [4], found product version [5].
+2751	Transform [2] invalid for package [3]. Expected product version > [4], found product version [5].
+2752	Could not open transform [2] stored as child storage of package [4].
+2753	The File '[2]' is not marked for installation.
+2754	The File '[2]' is not a valid patch file.
+2755	Server returned unexpected error [2] attempting to install package [3].
+2756	The property '[2]' was used as a directory property in one or more tables, but no value was ever assigned.
+2757	Could not create summary info for transform [2].
+2758	Transform [2] does not contain an MSI version.
+2759	Transform [2] version [3] incompatible with engine; Min: [4], Max: [5].
+2760	Transform [2] invalid for package [3]. Expected upgrade code [4], found [5].
+2761	Cannot begin transaction. Global mutex not properly initialized.
+2762	Cannot write script record. Transaction not started.
+2763	Cannot run script. Transaction not started.
+2765	Assembly name missing from AssemblyName table : Component: [4].
+2766	The file [2] is an invalid MSI storage file.
+2767	No more data{ while enumerating [2]}.
+2768	Transform in patch package is invalid.
+2769	Custom Action [2] did not close [3] MSIHANDLEs.
+2770	Cached folder [2] not defined in internal cache folder table.
+2771	Upgrade of feature [2] has a missing component. .
+2772	New upgrade feature [2] must be a leaf feature.
+2801	Unknown Message -- Type [2]. No action is taken.
+2802	No publisher is found for the event [2].
+2803	Dialog View did not find a record for the dialog [2].
+2804	On activation of the control [3] on dialog [2] MsiDialog failed to evaluate the condition [3].
+2806	The dialog [2] failed to evaluate the condition [3].
+2807	The action [2] is not recognized.
+2808	Default button is ill-defined on dialog [2].
+2809	On the dialog [2] the next control pointers do not form a cycle. There is a pointer from [3] to [4], but there is no further pointer.
+2810	On the dialog [2] the next control pointers do not form a cycle. There is a pointer from both [3] and [5] to [4].
+2811	On dialog [2] control [3] has to take focus, but it is unable to do so.
+2812	The event [2] is not recognized.
+2813	The EndDialog event was called with the argument [2], but the dialog has a parent
+2814	On the dialog [2] the control [3] names a nonexistent control [4] as the next control.
+2815	ControlCondition table has a row without condition for the dialog [2].
+2816	The EventMapping table refers to an invalid control [4] on dialog [2] for the event [3].
+2817	The event [2] failed to set the attribute for the control [4] on dialog [3].
+2818	In the ControlEvent table EndDialog has an unrecognized argument [2].
+2819	Control [3] on dialog [2] needs a property linked to it.
+2820	Attempted to initialize an already initialized handler.
+2821	Attempted to initialize an already initialized dialog: [2].
+2822	No other method can be called on dialog [2] until all the controls are added.
+2823	Attempted to initialize an already initialized control: [3] on dialog [2].
+2824	The dialog attribute [3] needs a record of at least [2] field(s).
+2825	The control attribute [3] needs a record of at least [2] field(s).
+2826	Control [3] on dialog [2] extends beyond the boundaries of the dialog [4] by [5] pixels.
+2827	The button [4] on the radio button group [3] on dialog [2] extends beyond the boundaries of the group [5] by [6] pixels.
+2828	Tried to remove control [3] from dialog [2], but the control is not part of the dialog.
+2829	Attempt to use an uninitialized dialog.
+2830	Attempt to use an uninitialized control on dialog [2].
+2831	The control [3] on dialog [2] does not support [5] the attribute [4].
+2832	The dialog [2] does not support the attribute [3].
+2833	Control [4] on dialog [3] ignored the message [2].
+2834	The next pointers on the dialog [2] do not form a single loop.
+2835	The control [2] was not found on dialog [3].
+2836	The control [3] on the dialog [2] cannot take focus.
+2837	The control [3] on dialog [2] wants the winproc to return [4].
+2838	The item [2] in the selection table has itself as a parent.
+2839	Setting the property [2] failed.
+2840	Error dialog name mismatch.
+2841	No OK button was found on the error dialog.
+2842	No text field was found on the error dialog.
+2843	The ErrorString attribute is not supported for standard dialogs.
+2844	Cannot execute an error dialog if the ErrorString is not set.
+2845	The total width of the buttons exceeds the size of the error dialog.
+2846	SetFocus did not find the required control on the error dialog.
+2847	The control [3] on dialog [2] has both the icon and the bitmap style set.
+2848	Tried to set control [3] as the default button on dialog [2], but the control does not exist.
+2849	The control [3] on dialog [2] is of a type, that cannot be integer valued.
+2850	Unrecognized volume type.
+2851	The data for the icon [2] is not valid.
+2852	At least one control has to be added to dialog [2] before it is used.
+2853	Dialog [2] is a modeless dialog. The execute method should not be called on it.
+2854	On the dialog [2] the control [3] is designated as first active control, but there is no such control.
+2855	The radio button group [3] on dialog [2] has fewer than 2 buttons.
+2856	Creating a second copy of the dialog [2].
+2857	The directory [2] is mentioned in the selection table but not found.
+2858	The data for the bitmap [2] is not valid.
+2859	Test error message.
+2860	Cancel button is ill-defined on dialog [2].
+2861	The next pointers for the radio buttons on dialog [2] control [3] do not form a cycle.
+2862	The attributes for the control [3] on dialog [2] do not define a valid icon size. Setting the size to 16.
+2863	The control [3] on dialog [2] needs the icon [4] in size [5]x[5], but that size is not available. Loading the first available size.
+2864	The control [3] on dialog [2] received a browse event, but there is no configurable directory for the present selection. Likely cause: browse button is not authored correctly.
+2865	Control [3] on billboard [2] extends beyond the boundaries of the billboard [4] by [5] pixels.
+2866	The dialog [2] is not allowed to return the argument [3].
+2867	The error dialog property is not set.
+2868	The error dialog [2] does not have the error style bit set.
+2869	The dialog [2] has the error style bit set, but is not an error dialog.
+2870	The help string [4] for control [3] on dialog [2] does not contain the separator character.
+2871	The [2] table is out of date: [3].
+2872	The argument of the CheckPath control event on dialog [2] is invalid.
+2873	On the dialog [2] the control [3] has an invalid string length limit: [4].
+2874	Changing the text font to [2] failed.
+2875	Changing the text color to [2] failed.
+2876	The control [3] on dialog [2] had to truncate the string: [4].
+2877	The binary data [2] was not found
+2878	On the dialog [2] the control [3] has a possible value: [4]. This is an invalid or duplicate value.
+2879	The control [3] on dialog [2] cannot parse the mask string: [4].
+2880	Do not perform the remaining control events.
+2881	MsiHandler initialization failed.
+2882	Dialog window class registration failed.
+2883	CreateNewDialog failed for the dialog [2].
+2884	Failed to create a window for the dialog [2].
+2885	Failed to create the control [3] on the dialog [2].
+2886	Creating the [2] table failed.
+2887	Creating a cursor to the [2] table failed.
+2888	Executing the [2] view failed.
+2889	Creating the window for the control [3] on dialog [2] failed.
+2890	The handler failed in creating an initialized dialog.
+2891	Failed to destroy window for dialog [2].
+2892	[2] is an integer only control, [3] is not a valid integer value.
+2893	The control [3] on dialog [2] can accept property values that are at most [5] characters long. The value [4] exceeds this limit, and has been truncated.
+2894	Loading RICHED20.DLL failed. GetLastError() returned: [2].
+2895	Freeing RICHED20.DLL failed. GetLastError() returned: [2].
+2896	Executing action [2] failed.
+2897	Failed to create any [2] font on this system.
+2898	For [2] textstyle, the system created a '[3]' font, in [4] character set.
+2899	Failed to create [2] textstyle. GetLastError() returned: [3].
+2901	Invalid parameter to operation [2]: Parameter [3].
+2902	Operation [2] called out of sequence.
+2903	The file [2] is missing.
+2904	Could not BindImage file [2].
+2905	Could not read record from script file [2].
+2906	Missing header in script file [2].
+2907	Could not create secure security descriptor. Error: [2].
+2908	Could not register component [2].
+2909	Could not unregister component [2].
+2910	Could not determine user's security ID.
+2911	Could not remove the folder [2].
+2912	Could not schedule file [2] for removal on restart.
+2919	No cabinet specified for compressed file: [2].
+2920	Source directory not specified for file [2].
+2924	Script [2] version unsupported. Script version: [3], minimum version: [4], maximum version: [5].
+2927	ShellFolder id [2] is invalid.
+2928	Exceeded maximum number of sources. Skipping source '[2]'.
+2929	Could not determine publishing root. Error: [2].
+2932	Could not create file [2] from script data. Error: [3].
+2933	Could not initialize rollback script [2].
+2934	Could not secure transform [2]. Error [3].
+2935	Could not unsecure transform [2]. Error [3].
+2936	Could not find transform [2].
+2937	Windows Installer cannot install a system file protection catalog. Catalog: [2], Error: [3].
+2938	Windows Installer cannot retrieve a system file protection catalog from the cache. Catalog: [2], Error: [3].
+2939	Windows Installer cannot delete a system file protection catalog from the cache. Catalog: [2], Error: [3].
+2940	Directory Manager not supplied for source resolution.
+2941	Unable to compute the CRC for file [2].
+2942	BindImage action has not been executed on [2] file.
+2943	This version of Windows does not support deploying 64-bit packages. The script [2] is for a 64-bit package.
+2944	GetProductAssignmentType failed.
+2945	Installation of ComPlus App [2] failed with error [3].
+3001	The patches in this list contain incorrect sequencing information: [2][3][4][5][6][7][8][9][10][11][12][13][14][15][16].
+3002	Patch [2] contains invalid sequencing information.
+4000	Número de sèrie invàlid.
+4001	Could not verify serial number.
+4010	Una versió més recent de [ProductName] ja està instal·lada en aquest ordinador.
+4020	Ha ocorregut un error durant el procés de configuració de l'IIS.
+La seva configuració original de l'IIS serà restaurada.
+4021	El lloc web "[2]" ja existeix en aquest servidor.
+
+Desitja ometre aquest lloc web i continuar la instal·lació?
+4022	El directori virtual "[2]" al lloc web "[3]" ja existeix en aquest servidor.
+
+Desitja ometre aquest directori virtual i continuar la instal·lació?
+4023	Aquesta versió de l'IIS no està suportada o bé l'IIS no està completament instal·lat !
+
+Es necessita Internet Information Services 5.0 o superior.
+4024	Un lloc web amb les mateixes vinculacions al servidor ja ha estat iniciat.
+
+[2]
+4025	Application Pool "[2]" already exists on this server.
+
+Do you want to skip configuring this application pool and continue the installation ?
+4026	Web Site "[2]" already exists on this server.
+
+Do you want to overwrite this web site and continue the installation ?
+(This operation cannot be undone.)
+4027	Virtual Directory "[2]" on Web Site "[3]" already exists on this server.
+
+Do you want to overwrite this virtual directory and continue the installation ?
+(This operation cannot be undone.)
+4028	Application Pool "[2]" already exists on this server.
+
+Do you want to overwrite this application pool and continue the installation ?
+(This operation cannot be undone.)
+4029	A Web Site with ID [\[] [2] [\]] - "[3]" already exists on this server.
+
+Do you want to skip this web site and continue the installation ?
+4030	A Web Site with ID [\[] [2] [\]] - "[3]" already exists on this server.
+
+Do you want to overwrite this web site and continue the installation ?
+(This operation cannot be undone.)
+4031	There was an error while processing the digital certificate for Web Site "[2]".
+4032	An error has occurred during the IIS Web Deploy configuration process for package "[2]".
+4033	An error has occurred during the IIS Web Deploy configuration process for package "[2]".
+
+Do you want to skip this package and continue the installation ?
+4034	There was an error during the IIS configuration process while trying to install [2].
+
+Your original IIS configuration will be restored.
+4101	Impossible crear el compte d'usuari o el grup '[2]' en la màquina local. Codi d'error: [3]. [4]
+4102	El compte d'usuari o el grup '[2]' ja existeix en la màquina local.
+4103	Impossible eliminar el compte d'usuari o el grup '[2]' en la màquina local. Codi d'error: [3].
+4104	El compte d'usuari o el grup '[2]' no existeix en la màquina local.
+4105	Ha ocorregut un error al compartir '[2]' sota el nom: '[3]'. Descripció de l'error: [4]
+4106	Ha ocorregut un error durant la creació d'una tasca programada: '[2]'. Descripció de l'error: [3]
+4107	Ha ocorregut un error durant la eliminació d'una tasca programada: '[2]'. Descripció de l'error: [3]
+4110	No es pot assignar memòria
+4111	No es pot trobar l'axiu: [2].
+4112	No es pot llegir l'arxiu '[2]'
+4113	Error d'anàlisis a l'arxiu: '[2]' a la línia [3]. Codi d'error: [5].
+4114	Codificació de l'arxiu XML no admesa.
+4115	Error obrint l'arxiu: [2].
+4116	No es pot escriure a l'arxiu '[2]'
+4117	Element arrel inesperat: "[2]" a l'arxiu XML: '[3]'
+4120	Ha succeït un error durant el procés de configuració del Firewall de Windows.
+ Es restaurarà la vostra configuració original del Firewall.
+4121	Camí de la imatge del procés del Firewall invàlid, o arxiu no trobar: [2].
+4122	Invàlid port/protocol Firewall: [2].
+4123	L'abast de la xarxa del Firewall és invàlid: [2].
+4124	Ha succeït un error registrant l'aplicació amb el Firewall de Windows: [2].
+4125	Ha succeït un error registrant el port amb el Firewall de Windows: [2].
+4126	Invalid Firewall direction: [2].
+4130	Ha succeït un error durant el procés de configuració de l'explorador de jocs.
+4131	El control parental et prevé de jugar al joc: [2].
+4140	Ha succeït un error durant el procés d'execució de l'script SQL.
+4141	Error ODBC: [2] ([3]).
+4142	Connexió ODBC: temps d'espera excedit.
+4143	Error analitzant l'script SQL: sintaxis no vàlida
+4150	Internal error in CallStdFcn.
+4151	Function '[2]' not found in DLL '[3]'.
+4152	Would you like to remove [ProductName] settings and temporary files?
+4153	[2] mandatory prerequisite was not correctly installed.
+4154	[2] prerequisite was not correctly installed. Continue installation of [ProductName]?
+4155	Failed to correctly acquire [2] file: CRC error.
+4156	Failed to correctly acquire [2] file: CRC error. Continue installation of [ProductName]?
+4157	Failed to load [2]. Error:[3]
+4158	Failed to create file [2] because an invalid file name was specified.
+4159	Failed to execute search "[2]" and replace "[3]" on file [4]. The file content was not modified.
+4160	The specified installation path already exists. Please select a different path.
+4161	The specified installation path already exists. Do you want to overwrite it?
+4162	The specified installation path cannot be used because it contains the "[1]" element. Please select a different path.
+4163	The specified installation path cannot be used because it does not contain the "[1]" element. Please select a different path.
+4164	To install using a different serial number please restart the setup.
+4165	An error occurred while deploying a SharePoint solution. The installation will now be canceled.
+4166	Failed to publish the package because of the following error: [2]
+4167	Failed to remove the package because of the following error: [2]
+4168	This installation package is not supported by this processor type. Contact your product vendor.
+4178	Windows couldn't connect to the Internet to download necessary files. Make sure that you're connected to the Internet, and click "Retry" to try again.
+4179	The following required Windows features are not available on your system: [2].
+4180	There was an error during the Windows features configuration process.
+Your original configuration will be restored.
+4181	Unacceptable character
+4182	You can only type a number here.
+4183	You can only type a separator character here.
+4184	Failed to install [2] Control Panel applet.
+4185	SQL Server Reporting Services deployment [2] failed. Reason: [3].
+4186	SQL Server Reporting Services deployment [2] failed because the deployment tool was not found.
+4187	An error has occurred while downloading a file [2].
+4188	An error has occurred while extracting an archive [2].
+4189	EXE and MSI file signature mismatch.
+4190	[2] prerequisite was not correctly installed. Reboot required.
+4191	An error occurred while applying security settings. Could not access [2], under user [3]. This could be a problem with the package, or a problem connecting to a domain controller on the network. Check your network connection and click "Retry".       {{Unable to access resource, system error [2] -> [3]}}

@@ -1,0 +1,93 @@
+Return-Path: <bounce-f567ba3ac79aa6b3a0bebc264bd8e2d7@smtplw-11.com>
+X-Original-To: VICTIM@DOMAIN
+Authentication-Results: mailin036.protonmail.ch; dkim=pass (Good 1024
+    bit rsa-sha256 signature) header.d=smtplw-11.com header.a=rsa-sha256
+Authentication-Results: mailin036.protonmail.ch; dmarc=fail (p=none dis=none)
+ header.from=gmail.com
+Authentication-Results: mailin036.protonmail.ch; spf=pass smtp.mailfrom=smtplw-11.com
+Authentication-Results: mailin036.protonmail.ch; arc=none smtp.remote-ip=179.188.7.233
+Authentication-Results: mailin036.protonmail.ch; dkim=pass (1024-bit key)
+ header.d=smtplw-11.com header.i=@smtplw-11.com header.b="Hm7bZdUI"
+Received: from smtp344t7f233.saaspmta0002.correio.biz
+ (smtp344t7f233.saaspmta0002.correio.biz [179.188.7.233]) (using TLSv1.3 with cipher
+ TLS_AES_256_GCM_SHA384 (256/256 bits)
+  key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256) (No
+ client certificate requested) by mailin036.protonmail.ch (Postfix) with ESMTPS id
+ 4QrQbB4tlDz9vNQ1 for <VICTIM@DOMAIN>; Wed, 28 Jun 2023 02:32:22 +0000
+ (UTC)
+Received: from saasmilter0010.correio.biz (10.32.64.10) by
+ smtp344t7f233.saaspmta0002.correio.biz id hjedk02oqm47 for
+ <VICTIM@DOMAIN>; Tue, 27 Jun 2023 23:30:24 -0300 (envelope-from
+ <bounce-f567ba3ac79aa6b3a0bebc264bd8e2d7@smtplw-11.com>)
+Received: from saasqueue0004.correio.biz (unknown [10.32.64.7]) by
+ saasmilter0010.correio.biz (Postfix) with ESMTP id 2EC27DFE91 for
+ <VICTIM@DOMAIN>; Tue, 27 Jun 2023 23:32:15 -0300 (-03)
+Received: from DESKTOP-9PQ4D53 (unknown [177.51.106.244]) (Authenticated sender: gur33zz)
+ by saasauth0007.correio.pw (Postfix) with ESMTPA id F1AA018137A for
+ <VICTIM@DOMAIN>; Tue, 27 Jun 2023 23:32:14 -0300 (-03)
+Received: from DESKTOP-9PQ4D53 (unknown [177.51.106.244]) (Authenticated sender: gur33zz)
+ by saasauth0007.correio.pw (Postfix) with ESMTPA id F1AA018137A for
+ <VICTIM@DOMAIN>; Tue, 27 Jun 2023 23:32:14 -0300 (-03)
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=smtplw; d=smtplw-11.com;
+ h=From:Subject:To:Content-Type:MIME-Version:Reply-To:Date:Message-Id;
+ bh=AG3xQLXI70gZDao87owg3RTBrSfgy92s0TBcPK4JKLM=;
+ b=Hm7bZdUIDVSLWa4IHZpht4aGd54mGhDITPH4cz5iN0oE+p8Zgw97gy0umFLFduS4/uV8lJtdWwBJ
+   mrAynAYvywxW6YaiHkgcptyxd14lseLFsXOKeBDhJPO6nMtzCFZbiJQ7RQIgigZ+r9lJTxb1d2YD
+   7DCnJgJPt2V7T1LtGrA=
+From: "CORREOS" <Correoformularioenlinea@gmail.com>
+Subject: =?utf-8?Q?Se_hicieron_intentos_de_entrega_a_su_domicilio_y_por_ausencia_de_destinatario_su_pedido_fue_devuelto_a_nuestro_centro_de_distribuci=C3=B3n____23:32?=
+To: VICTIM@DOMAIN
+Content-Type: text/html
+Mime-Version: 1.0
+Reply-To: Correoformularioenlinea@gmail.com
+Date: Tue, 27 Jun 2023 23:32:13 -0300
+Message-Id: <202306272332130953EFF409$4387B97CA2@DESKTOPPQD>
+Status: N
+X-Locaweb-Id: iPr8WFbhQ9DS0trYIBMJcOpcP_brqRtaWC6rnddcSVr2z4XrQQosd8UZ5plbV_L14tEbSYN311_ZaAXlM588ZxEhOHRiyIGOWasEojPOcXyPYYxqtpIRqcB-MkCPmOfEYEwWgIVtV-nei9pVQJLr5hlka2CQ8IjjSM0cewe6OKka60e-AePc46m4On5lr23rN1iKbr1ARNAjK4l-XmJt37qPot443nhnfCF2PDPSeOxfmq3KRPwXLyYviGtcIaKt7LHOx4qJ-gA3XaiZ90klChVS7kIqvLOmiAT5zkqB3LF7mK3nUb6jhXKO17N60_-ozwRP8Vwf16K7gMVzzr8u1zOHWD6c2DoCuds-pcLtYozG15_tryl8dafX2MwPFmIL7mRlRGb-azPcFSX-y6G3_-rJ6qi19aNsd2fq_kqZsQgy2sxY0t9Jdvnf4DUk2zaBRk5VWBKItI6StMEECa8621-7O8QxbysDCHaWxfGePN-bVbKXUtxTTtyoZda4ADVYiN3IUHCtvk0niHMGDyD1DTbu7UwAI8CVcTI9gN0EdJBPOseiEgb8x6KU6DN3ULVSiAVWLKxJp0lLVD2h6fGjupiKIFFr560BgongpzQFDoA=
+X-Locaweb-Id2: Njc3NTcyMzMzMzdhN2E=
+X-Message-Uid: f567ba3ac79aa6b3a0bebc264bd8e2d7-1687919535.23
+X-Account-Uid: f567ba3ac79aa6b3a0bebc264bd8e2d7
+X-Return-Path: bounce-f567ba3ac79aa6b3a0bebc264bd8e2d7@smtplw-11.com
+X-Envid: f567ba3ac79aa6b3a0bebc264bd8e2d7-1687919535.23
+X-Rspamd-Server: cp5-mailin-036.plabs.ch
+X-Spamd-Result: default: False [8.65 / 25.00];
+ SH_HBL_EMAIL(7.00)[correoformularioenlinea@gmail.com:selector,correoformularioenlinea@gmail.com:replyto];
+ URI_COUNT_ODD(1.00)[7]; MID_RHS_NOT_FQDN(0.50)[]; DMARC_POLICY_SOFTFAIL(0.10)[gmail.com
+ : SPF not aligned (relaxed), DKIM not aligned (relaxed),none];
+ MIME_GOOD(-0.10)[multipart/alternative,text/plain]; BAD_REP_POLICIES(0.10)[];
+ MANY_INVISIBLE_PARTS(0.05)[1]; BAYES_HAM(-0.00)[40.72%];
+ R_DKIM_ALLOW(0.00)[smtplw-11.com:s=smtplw]; FROM_HAS_DN(0.00)[];
+ NEURAL_HAM(-0.00)[-0.978]; TO_MATCH_ENVRCPT_ALL(0.00)[]; RCPT_COUNT_ONE(0.00)[1];
+ PREVIOUSLY_DELIVERED(0.00)[VICTIM@DOMAIN]; RCVD_COUNT_FIVE(0.00)[5];
+ ARC_NA(0.00)[]; ASN(0.00)[asn:27715, ipnet:179.188.0.0/19, country:BR];
+ REPLYTO_ADDR_EQ_FROM(0.00)[]; R_SPF_ALLOW(0.00)[+ip4:179.188.7.0/24];
+ RCVD_VIA_SMTP_AUTH(0.00)[];
+ FROM_NEQ_ENVFROM(0.00)[Correoformularioenlinea@gmail.com,bounce-f567ba3ac79aa6b3a0bebc264bd8e2d7@smtplw-11.com];
+ TO_DN_NONE(0.00)[]; RECEIVED_SPAMHAUS_PBL(0.00)[177.51.106.244:received];
+ DKIM_TRACE(0.00)[smtplw-11.com:+]; RCVD_TLS_LAST(0.00)[]; MIME_TRACE(0.00)[0:+,1:+,2:~];
+ HAS_REPLYTO(0.00)[Correoformularioenlinea@gmail.com]
+X-Rspamd-Queue-Id: 4QrQbB4tlDz9vNQ1
+X-Spam: Yes
+X-Pm-Spam: 0yezJI6cihyJeYR3pi42biOpJJvbmsCIeI1msjN3X3blJp7IjBlNIIojxx4CNCLSJ
+ I6Uy2C4ONwSiPJFUCR6IIxLTQCJLU9kESB1XURJRRJQ1i04TOAjsk9lIWZ1J9pZ1vmZbIpj7SBlI
+ 0TiQsiOnzF9ccFGtwojIjL5AkyNj0zINNkz05QTMzM5kJpLCnWFbZ9Vul1WYjIioN0aHrWNYXN3l
+ flWb2bzJJ2ZXfWRZMAjy2AzMTMiUJyLCfW5dbFmt6ISZmIsF1mbC0WFZdJXl31ycXYjRxpaGi3Qc
+ LJCtslWY2XhNVndG53JbX52hiUWbiOVJRBUETEVVIwiipFWbFbj9RlYXy29Ze9Vwi9mcjIwoUwLj
+ 0zAMN139iwSf3cpJI6ZC0jYIOIW53MmYGM0URhZWwzQNNkT54M2YyM9JJzLC6SIYeJypz91cGctF
+ oxIjzCJLY92y6ISZTMsQNjInl3JbZIC6uQTMSMiwVwcm03JbIpj7BJkIUWTVUwXzbjpIM4SwzJCL
+ 2Yy9ogZT1C4MMADws0lIkISZVNRUMUlQXZ0Si00TlOwsAsLjvmNIcJnlvZ2bmc11FybGlW9abxmp
+ hVmb2W0FdtXWsWlYLNmvdJSbCLTJ9ISFfkxQR1UBTxUSjIbp4wOCjCJLbJ3ym9WZ3btJxhdWvmlc
+ Z5Wsl5WaUYnBFpbWjC5bb02iiwSX1UGBhFX0fE9TT9kO6ISRzWuA0sMFLkRIS1UfTRUQFUD9NUVV
+ f01TTVUEbpjICMw4wiXSSk9RRV0ENd0XUQMlJDX1ikQVOslxdBjLCLIJFERUfVJRRJlPE9VTUSGZ
+ JFRVflRTR9ENOlUQyU6IAuWzsl0MINlQQ9lRVQTNpbIjuTALM0FsUhkIUTfxVTTUH0FURIS6uAzW
+ FMs0hUIkfUxTR9kOM9FV1Tfd9OQ0BFJVUQ1iwslOjLdBJILCME1VXZ0PfRlT0Ual9IRVFUdVIpjb
+ w4CMSXiwtJREWV9TQxUJ6ICRyWw0FdLjECJLSl0NJN1X0RF5I6RCuzAWM0VsLRkIUSf1FMVkfURS
+ RYUitslOCMx4wiXSTF9VQN0fE9kQVWU9hURVJ0xXTUkitslOCMw4wiXSWkNUR9FJQ9lTkQiwswOl
+ djBLLJCGFVkUUTJF9GTFH1JTRRUfPJlRUTPRFJTU6iITWAzus0lMlISV9HSVH09TTVEfPJFUFWik
+ syOldjhLLJCOfxUTUQTR9DUFUVNVT10fEVUTjIbp45MC9X1XfQ==
+X-Pm-Origin: external
+X-Pm-Transfer-Encryption: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+X-Pm-Content-Encryption: on-delivery
+X-Pm-Spamscore: 101
+X-Pm-Spam-Action: inbox
+

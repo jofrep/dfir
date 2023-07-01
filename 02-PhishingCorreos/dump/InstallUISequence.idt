@@ -1,0 +1,35 @@
+Action	Condition	Sequence
+s72	S0	I2
+InstallUISequence	Action
+CostFinalize		1000
+CostInitialize		800
+AppSearch		100
+AI_DETECT_MODERNWIN	(VersionNT >= 603)	7
+LaunchConditions	NOT Installed	400
+FileCost		900
+FindRelatedProducts		200
+MigrateFeatureStates		1100
+ProgressDlg		1280
+ExecuteAction		1300
+ExitDialog	NOT AiSkipExitDlg OR NOT AI_INSTALL	-1
+FatalError		-3
+PrepareDlg		75
+UserExit	NOT AiSkipUserExit	-2
+MaintenanceWelcomeDlg	AI_MAINT	1250
+PatchWelcomeDlg	AI_PATCH	1260
+ResumeDlg	AI_RESUME	1240
+WelcomeDlg	AI_INSTALL	1230
+AI_DpiContentScale		52
+AI_EnableDebugLog		51
+AI_BACKUP_AI_SETUPEXEPATH		99
+AI_DOWNGRADE	AI_NEWERPRODUCTFOUND	201
+AI_RESTORE_AI_SETUPEXEPATH	AI_SETUPEXEPATH_ORIGINAL	101
+AI_RESTORE_LOCATION	APPDIR=""	749
+AI_ResolveKnownFolders		53
+SET_APPDIR	APPDIR=""	750
+SET_SHORTCUTDIR	SHORTCUTDIR=""	775
+AI_CORRECT_INSTALL	AI_RESUME	5
+AI_SET_RESUME	RESUME OR Preselected	3
+AI_SET_INSTALL	NOT Installed	1
+AI_SET_MAINT	Installed AND (NOT RESUME) AND (NOT Preselected) AND (NOT PATCH)	2
+AI_SET_PATCH	PATCH	4

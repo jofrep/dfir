@@ -1,0 +1,5 @@
+Registry	Root	Key	Name	Value	Component_
+s72	i2	l255	L255	L0	s72
+Registry	Registry
+Version	-1	Software\[Manufacturer]\[ProductName]	Version	[ProductVersion]	ProductInformation
+Path	-1	Software\[Manufacturer]\[ProductName]	Path	[APPDIR]	ProductInformation

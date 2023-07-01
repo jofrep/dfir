@@ -1,0 +1,12 @@
+Dialog_	Control_	Action	Condition
+s72	s50	s50	s0
+ControlCondition	Dialog_	Control_	Action	Condition
+ExitDialog	ViewReadmeText	Hide	((NOT AI_INSTALL) AND (NOT AI_PATCH)) OR ((CTRLS <> 1) AND (CTRLS <> 3))
+ExitDialog	ViewReadmeCheckBox	Hide	((NOT AI_INSTALL) AND (NOT AI_PATCH)) OR ((CTRLS <> 1) AND (CTRLS <> 3))
+ExitDialog	LaunchProdText	Hide	((NOT AI_INSTALL) AND (NOT AI_PATCH)) OR ((CTRLS <> 2) AND (CTRLS <> 3))
+ExitDialog	LaunchProdCheckBox	Hide	((NOT AI_INSTALL) AND (NOT AI_PATCH)) OR ((CTRLS <> 2) AND (CTRLS <> 3))
+FatalError	LogCheckBox	Show	MsiLogFileLocation
+FatalError	LogCheckBoxLabel	Show	MsiLogFileLocation
+CustomizeDlg	Browse	Hide	Installed
+CustomizeDlg	LocationLabel	Hide	Installed
+CustomizeDlg	Location	Hide	Installed

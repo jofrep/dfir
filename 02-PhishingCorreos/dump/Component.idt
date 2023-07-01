@@ -1,0 +1,5 @@
+Component	ComponentId	Directory_	Attributes	Condition	KeyPath
+s72	S38	s72	i2	S0	S72
+Component	Component
+APPDIR	{D1FEC146-CD03-423D-8C9B-7629475D9987}	APPDIR	0		
+ProductInformation	{03997102-C58C-43E0-9DFB-147750D38053}	APPDIR	4		Version
