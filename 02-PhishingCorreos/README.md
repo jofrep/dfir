@@ -394,7 +394,7 @@ Exporting stream Binary.dialog.scale200.jpg...
 Exporting stream SummaryInformation...
 ```
 
-12) In the `_Streams` we find the first interesting file, `Binary.aicustact.dll` but this is a dead end. We see that the dll is part of the "Advanced Installer" from Capyhon Ltd. We can see that the DLL is signed with a valid code sign certificate. The jpg images from the same folder are also part of the installer.
+12) In the `_Streams` we find the first interesting file, `Binary.aicustact.dll` but this is a dead end. We see that the dll is part of the "Advanced Installer" from Capyhon Ltd. We can see that the DLL is signed with a valid code sign certificate. The signing timestamp is 21/09/21 which rules out the possiblity that the code sign certificate was stolen and missued. The jpg images from the same folder are also part of the installer.
 
 ![Codesign certificate](./images/dll-certificate.png?raw=true "Codesign and timestamp")
 
