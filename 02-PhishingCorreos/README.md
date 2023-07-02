@@ -522,7 +522,7 @@ class ActiveXObject {
         console.log(this.type + " Extract: " + env);
     }         
 ```
-This patch prints all the ActiveX interactions, allowing us to capture what this script would do if exectued by the MSI. You can find the patched script at `patched_js.html`.
+This patch prints all the ActiveX interactions, allowing us to capture what this script would do if executed by the MSI. You can find the patched script at `patched_js.html`.
 
 This is the output of the JavaScript console:
 
