@@ -76,7 +76,7 @@ for($j = 1; $j -lt 365; $j++)
 }
 ```
 
-10) The list of all domains that can be generated is at all-domains.txt. At the time of writting this, only this week's domain is active
+10) The list of all domains that can be generated is at all-domains.txt. At the time of writing this, only this week's domain is active
 ```
 Name:	cmbefalcljjblia[.]top
 Address: 143.244.162[.]145
