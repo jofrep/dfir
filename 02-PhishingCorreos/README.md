@@ -12,7 +12,7 @@
 
 The victim is Spanish and the colours and fonts resemble the Spanish Post Office. The text pretends to be a notification of a paquet failed delivery.
 
-2) Altough the email pretends to come from From: "CORREOS" <Correoformularioenlinea@gmail.com>, we can see that the email client is already complaining about the domain validation. If we look at the relevant email header we see:
+2) Although the email pretends to come from From: "CORREOS" <Correoformularioenlinea@gmail.com>, we can see that the email client is already complaining about the domain validation. If we look at the relevant email header we see:
 
 ```
 Authentication-Results: mailin036.protonmail.ch; dmarc=fail (p=none dis=none) header.from=gmail.com
@@ -46,7 +46,7 @@ which can be translated to:
 
 ![Phishing email](./images/email-flow.png?raw=true "Title")
 
-cleary the source is not gmail, but a host in Brazil. Looking that the source is not a single residencial user, but we see several servers involved, that use DKIM and SPF, a potential root cause of the phising could be a fraudulent user account, "gur33zz" or stolen credentials. 
+The email source is not gmail, but a host in Brazil. Looking that the source is not a single residencial user, but we see several servers involved, that use DKIM and SPF, a potential root cause of the phising could be a fraudulent user account, "gur33zz" or stolen credentials. 
 
 2) Lets see what is the payload of the phishing. If we look at the body of the email (`body-email.html.vir.zip`) we see that any interaction with the email with forward us to https://ip71.32.139.586ip.see-cure[.]de
 
@@ -222,7 +222,7 @@ zipped_content.generateAsync({ type: "Blob" ,compression: "DEFLATE"}).then(funct
 ```
 
 We can see as the threat actor has three different functions just to generate the file names, always including one non ASCII character.
-The payload is the BASE64 encoded content from the large variable we trimed. What the HTML does is to use Javascript to decoded de base64 content, add a random name with extension .msi,  compress the content using DEFLAT compression, add another random name with the zip extnesion and deliver it to the victim.
+The payload is the BASE64 encoded content from the large variable we trimmed. What the HTML does is to use Javascript to decoded the base64 content, add a random name with extension .msi,  compress the content using DEFLAT compression, add another random name with the zip extnesion and deliver it to the victim.
 
 7) If we execute the Javascript, it generates a file like the one at DTFHO4OMsmY4Wckrtb.zip.vir.zip. If we unzip it we find an MSI executable.
 
@@ -230,7 +230,7 @@ The payload is the BASE64 encoded content from the large variable we trimed. Wha
 
 ![Virus Total](./images/vt01.png?raw=true "Virus Total")
 
-VT list the following potentialy malicious behaviours:
+VT list the following potentially malicious behaviours:
 * Replication Through Removable Media
 * Checks for available system drives (often done to infect USB drives)
 * Windows Management Instrumentation
