@@ -1,10 +1,19 @@
 .DS_Store
 
-#vir
+# ignore all . files and . folders
+.*
+
+# Dont ignore .gitignore (this file)
+# .gitignore is already tracked or if you use -f to
+# force-add it if you just created it
+!/.gitignore
+
+#Do not publish potential malware without encryption
 .vir 
 .exe 
 .dll 
 
-temp/
-tmp/
+
 private/
+*.WIP/
+
